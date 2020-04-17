@@ -1,11 +1,13 @@
 use std::sync::Arc;
 extern crate grpcio;
-
+extern crate cryptoxide;
+use bytes::{BytesMut, BufMut};
+use cryptoxide::ed25519;
 pub mod protos;
 use protobuf::RepeatedField;
 use grpcio::{ChannelBuilder, EnvBuilder};
 use ::protos::replication_grpc::ReplicatorClient;
-use ::protos::replication::{Replication,ServerSource, AddrInfo, SignedSubscription, Subscription};
+use ::protos::replication::{Replication,ServerSource, AddrInfo, SignedSubscription, Subscription, SubscriptionUpdate};
 
 fn main() {
 
@@ -45,6 +47,33 @@ fn main() {
 
     let mut sub = Subscription::default();
     sub.set_author_id_bytes("aidan".as_bytes().to_vec());
-    let reply = client.add(&sub);
+    sub.set_topic(String::from("bruh"));
+
+    let mut ss = SignedSubscription::default();
+
+    let subup = get_signature(sub);
+    ss.set_update_part(subup);
+    //let reply = client.add(&sub);
     //info!("Greeter received: {}", reply.get_message());
+}
+
+fn get_signature(sub: Subscription ) -> SubscriptionUpdate {
+
+    let mut subup = SubscriptionUpdate::default();
+    let data = {
+        let topic = sub.get_topic().as_bytes();
+        let author = sub.get_author_id_bytes();
+        let version = subup.get_version();
+        let mut buf = BytesMut::default();
+        buf.put(topic);
+        buf.put(author);
+        buf.put_i64(version);
+        buf
+    };
+    let seed = [0u8;32]; // seed only for example !
+    let (secret, public) = ed25519::keypair(&seed[..]);
+    let sig = ed25519::signature(&data, &secret[..]);
+    subup.set_signature(sig.to_vec());
+    subup
+
 }
