@@ -18,9 +18,9 @@ fn main() {
     let mut req = Replication::default();
 
     // Collect cids into a vector TODO add iter
-    let mut cids = Vec::new();
+    let cids = Vec::new();
     let v = RepeatedField::from_vec(cids);
-    req.set_cids_bytes(v: ::protobuf::RepeatedField<::std::vec::Vec<u8>>);
+    req.set_cids_bytes(v);
     
     // Set Replication req params
     let header = "Example header";
@@ -30,19 +30,20 @@ fn main() {
     req.set_server_down_delay_seconds(30);
 
     // TODO add iterator 
-    let source = ServerSource::default();
-    let addrInfo = AddrInfo::default();
-    let mut addrVec = Vec::new();
-    let addrs = RepeatedField::from_vec(addrVec);
-    source.set_addr_info(addrInfo);
-    addrInfo.set_addrs_bytes(addrs: ::protobuf::RepeatedField<::std::vec::Vec<u8>>);
+    let mut source = ServerSource::default();
+    let mut addr_info = AddrInfo::default();
+    let addr_vec = Vec::new();
+    let addrs = RepeatedField::from_vec(addr_vec);
+    addr_info.set_addrs_bytes(addrs);
+    source.set_addr_info(addr_info);
+    
 
     // Collect servers and sets req field
-    let mut server = Vec::<ServerSource>::new();
+    let server = Vec::<ServerSource>::new();
     let servers = RepeatedField::from_vec(server);
-    req.set_servers(servers: ::protobuf::RepeatedField<ServerSource>);
+    req.set_servers(servers);
 
-    let sub = Subscription::default();
+    let mut sub = Subscription::default();
     sub.set_author_id_bytes("aidan".as_bytes().to_vec());
     let reply = client.add(&sub);
     //info!("Greeter received: {}", reply.get_message());
