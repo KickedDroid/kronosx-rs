@@ -1,0 +1,11 @@
+syntax = "proto3";
+package pb;
+
+// PutResponse is a response to any data storage (put) requests
+message PutResponse {
+    // hash is hash/cid (content identifier) of the data that was stored
+    string hash = 1;
+}
+
+// Empty is an empty message
+message Empty { }
