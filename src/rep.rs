@@ -58,10 +58,10 @@ fn main() {
     
     let subup = get_signature(sub);
     ss.set_update_part(subup);
-    let reply = client.submit_replication(&ss);
+    let reply = client.submit_replication(&ss).expect("RPC Failed");
+    reply.wait();
+    reply.is_active();
 
-    reply.ok();
-    //info!("Greeter received: {}", reply.get_message());
 }
 
 fn get_signature(sub: Subscription ) -> SubscriptionUpdate {

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c
+openssl/rc4.h
+-
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/include/openssl/base.h
+stddef.h
+-
+stdint.h
+-
+sys/types.h
+-
+stdio.h
+-
+openssl/is_boringssl.h
+-
+openssl/opensslconf.h
+-
+boringssl_prefix_symbols.h
+-
+memory
+-
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/include/openssl/is_boringssl.h
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/include/openssl/opensslconf.h
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/include/openssl/rc4.h
+openssl/base.h
+-
+
