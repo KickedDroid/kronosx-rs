@@ -3,7 +3,6 @@ extern crate grpcio;
 extern crate cryptoxide;
 use bytes::{BytesMut, BufMut};
 use cryptoxide::ed25519;
-pub mod protos;
 use protobuf::RepeatedField;
 use grpcio::{ChannelBuilder, EnvBuilder};
 use ::protos::replication_grpc::ReplicatorClient;
@@ -11,10 +10,7 @@ use ::protos::replication::{Replication,ServerSource, AddrInfo, SignedSubscripti
 
 fn main() {
 
-    // Setup the gRPC Client
-    let env = Arc::new(EnvBuilder::new().build());
-    let ch = ChannelBuilder::new(env).connect("localhost:50051");
-    let client = ReplicatorClient::new(ch);
+    let rep_cli = new_rep_client();
 
     // Create a Replication request
     let mut req = Replication::default();
@@ -58,13 +54,13 @@ fn main() {
     
     let subup = get_signature(sub);
     ss.set_update_part(subup);
-    let reply = client.submit_replication(&ss).expect("RPC Failed");
-    reply.wait();
-    reply.is_active();
+    let reply = rep_cli.submit_replication(&ss).expect("RPC Failed");
+
 
 }
 
-fn get_signature(sub: Subscription ) -> SubscriptionUpdate {
+// Sign the SubcriptionUpdate and return a SubcriptionUpdate
+pub fn get_signature(sub: Subscription ) -> SubscriptionUpdate {
 
     let mut subup = SubscriptionUpdate::default();
     let data = {
@@ -83,4 +79,13 @@ fn get_signature(sub: Subscription ) -> SubscriptionUpdate {
     subup.set_signature(sig.to_vec());
     subup
 
+}
+
+// Creates a new Replication Client
+pub fn new_rep_client() -> ReplicatorClient {
+    // Setup the gRPC Client
+    let env = Arc::new(EnvBuilder::new().build());
+    let ch = ChannelBuilder::new(env).connect("localhost:50051");
+    let client = ReplicatorClient::new(ch);
+    client
 }

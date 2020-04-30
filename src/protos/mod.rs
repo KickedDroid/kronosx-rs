@@ -7,3 +7,5 @@ pub mod replication_grpc;
 pub mod file;
 pub mod file_grpc;
 pub mod util;
+pub mod node;
+pub mod node_grpc;
