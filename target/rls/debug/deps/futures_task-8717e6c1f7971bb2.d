@@ -1,0 +1,11 @@
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/deps/futures_task-8717e6c1f7971bb2.rmeta: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/lib.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/spawn.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/future_obj.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/noop_waker.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/arc_wake.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/waker.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/waker_ref.rs
+
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/deps/futures_task-8717e6c1f7971bb2.d: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/lib.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/spawn.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/future_obj.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/noop_waker.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/arc_wake.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/waker.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/waker_ref.rs
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/lib.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/spawn.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/future_obj.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/noop_waker.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/arc_wake.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/waker.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.4/src/waker_ref.rs:

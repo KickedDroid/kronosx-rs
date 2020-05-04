@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/chacha/CMakeFiles/progress.marks
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/chacha/CMakeFiles/progress.marks
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/clean
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule
 .PHONY : third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ chacha: third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule
 
 # fast build rule for target.
 chacha/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build
 .PHONY : chacha/fast
 
 chacha-x86_64.o: chacha-x86_64.S.o
@@ -177,7 +177,7 @@ chacha-x86_64.o: chacha-x86_64.S.o
 
 # target to build an object file
 chacha-x86_64.S.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha-x86_64.S.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha-x86_64.S.o
 .PHONY : chacha-x86_64.S.o
 
 chacha.o: chacha.c.o
@@ -186,7 +186,7 @@ chacha.o: chacha.c.o
 
 # target to build an object file
 chacha.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha.c.o
 .PHONY : chacha.c.o
 
 chacha.i: chacha.c.i
@@ -195,7 +195,7 @@ chacha.i: chacha.c.i
 
 # target to preprocess a source file
 chacha.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha.c.i
 .PHONY : chacha.c.i
 
 chacha.s: chacha.c.s
@@ -204,7 +204,7 @@ chacha.s: chacha.c.s
 
 # target to generate assembly for a file
 chacha.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha.c.s
 .PHONY : chacha.c.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/zlib/test/minigzip.c" "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/CMakeFiles/minigzip.dir/test/minigzip.o"
+  "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/zlib/test/minigzip.c" "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/CMakeFiles/minigzip.dir/test/minigzip.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
@@ -22,7 +22,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

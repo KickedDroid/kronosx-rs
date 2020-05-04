@@ -2,732 +2,269 @@ cargo:rerun-if-changed=grpc_wrap.cc
 cargo:rerun-if-changed=grpc
 cargo:rerun-if-env-changed=GRPCIO_SYS_USE_PKG_CONFIG
 cargo:rerun-if-env-changed=CARGO_CFG_TARGET_OS
-running: "cmake" "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc" "-DgRPC_INSTALL=false" "-DgRPC_BUILD_CSHARP_EXT=false" "-DgRPC_BUILD_CODEGEN=false" "-DgRPC_BENCHMARK_PROVIDER=none" "-DCMAKE_INSTALL_PREFIX=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_BUILD_TYPE=Debug"
--- The C compiler identification is AppleClang 11.0.0.11000033
--- The CXX compiler identification is AppleClang 11.0.0.11000033
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for sys/types.h
--- Looking for sys/types.h - found
--- Looking for stdint.h
--- Looking for stdint.h - found
--- Looking for stddef.h
--- Looking for stddef.h - found
--- Check size of off64_t
--- Check size of off64_t - failed
--- Looking for fseeko
--- Looking for fseeko - found
--- Looking for unistd.h
--- Looking for unistd.h - found
--- Looking for res_servicename in resolv
--- Looking for res_servicename in resolv - found
--- Performing Test IOS
--- Performing Test IOS - Failed
--- Performing Test IOS_V10
--- Performing Test IOS_V10 - Failed
--- Performing Test MACOS_V1012
--- Performing Test MACOS_V1012 - Success
--- Looking for gethostbyname in nsl
--- Looking for gethostbyname in nsl - not found
--- Looking for gethostbyname in socket
--- Looking for gethostbyname in socket - not found
--- Looking for clock_gettime in rt
--- Looking for clock_gettime in rt - not found
--- Looking for include file sys/socket.h
--- Looking for include file sys/socket.h - found
--- Looking for include file arpa/inet.h
--- Looking for include file arpa/inet.h - found
--- Looking for include file arpa/nameser_compat.h
--- Looking for include file arpa/nameser_compat.h - found
--- Looking for include file arpa/nameser.h
--- Looking for include file arpa/nameser.h - found
--- Looking for include file assert.h
--- Looking for include file assert.h - found
--- Looking for include file errno.h
--- Looking for include file errno.h - found
--- Looking for include file fcntl.h
--- Looking for include file fcntl.h - found
--- Looking for include file inttypes.h
--- Looking for include file inttypes.h - found
--- Looking for include file limits.h
--- Looking for include file limits.h - found
--- Looking for include file malloc.h
--- Looking for include file malloc.h - not found
--- Looking for include file memory.h
--- Looking for include file memory.h - found
--- Looking for include file netdb.h
--- Looking for include file netdb.h - found
--- Looking for include file netinet/in.h
--- Looking for include file netinet/in.h - found
--- Looking for include file netinet/tcp.h
--- Looking for include file netinet/tcp.h - found
--- Looking for include file net/if.h
--- Looking for include file net/if.h - found
--- Looking for include file signal.h
--- Looking for include file signal.h - found
--- Looking for include file socket.h
--- Looking for include file socket.h - not found
--- Looking for include file stdbool.h
--- Looking for include file stdbool.h - found
--- Looking for include file stdlib.h
--- Looking for include file stdlib.h - found
--- Looking for include file strings.h
--- Looking for include file strings.h - found
--- Looking for include file string.h
--- Looking for include file string.h - found
--- Looking for include file stropts.h
--- Looking for include file stropts.h - not found
--- Looking for include file sys/ioctl.h
--- Looking for include file sys/ioctl.h - found
--- Looking for include file sys/param.h
--- Looking for include file sys/param.h - found
--- Looking for include file sys/select.h
--- Looking for include file sys/select.h - found
--- Looking for include file sys/stat.h
--- Looking for include file sys/stat.h - found
--- Looking for include file sys/time.h
--- Looking for include file sys/time.h - found
--- Looking for include file sys/uio.h
--- Looking for include file sys/uio.h - found
--- Looking for include file time.h
--- Looking for include file time.h - found
--- Looking for include file dlfcn.h
--- Looking for include file dlfcn.h - found
--- Looking for include file unistd.h
--- Looking for include file unistd.h - found
--- Looking for include files winsock2.h, windows.h
--- Looking for include files winsock2.h, windows.h - not found
--- Looking for 3 include files winsock2.h, ..., windows.h
--- Looking for 3 include files winsock2.h, ..., windows.h - not found
--- Looking for include files winsock.h, windows.h
--- Looking for include files winsock.h, windows.h - not found
--- Looking for include file windows.h
--- Looking for include file windows.h - not found
--- Performing Test HAVE_SOCKLEN_T
--- Performing Test HAVE_SOCKLEN_T - Success
--- Performing Test HAVE_TYPE_SOCKET
--- Performing Test HAVE_TYPE_SOCKET - Failed
--- Performing Test HAVE_BOOL_T
--- Performing Test HAVE_BOOL_T - Success
--- Performing Test HAVE_SSIZE_T
--- Performing Test HAVE_SSIZE_T - Success
--- Performing Test HAVE_LONGLONG
--- Performing Test HAVE_LONGLONG - Success
--- Performing Test HAVE_SIG_ATOMIC_T
--- Performing Test HAVE_SIG_ATOMIC_T - Success
--- Performing Test HAVE_STRUCT_ADDRINFO
--- Performing Test HAVE_STRUCT_ADDRINFO - Success
--- Performing Test HAVE_STRUCT_IN6_ADDR
--- Performing Test HAVE_STRUCT_IN6_ADDR - Success
--- Performing Test HAVE_STRUCT_SOCKADDR_IN6
--- Performing Test HAVE_STRUCT_SOCKADDR_IN6 - Success
--- Performing Test HAVE_STRUCT_SOCKADDR_STORAGE
--- Performing Test HAVE_STRUCT_SOCKADDR_STORAGE - Success
--- Performing Test HAVE_STRUCT_TIMEVAL
--- Performing Test HAVE_STRUCT_TIMEVAL - Success
--- Looking for AF_INET6
--- Looking for AF_INET6 - found
--- Looking for O_NONBLOCK
--- Looking for O_NONBLOCK - found
--- Looking for FIONBIO
--- Looking for FIONBIO - found
--- Looking for SIOCGIFADDR
--- Looking for SIOCGIFADDR - found
--- Looking for MSG_NOSIGNAL
--- Looking for MSG_NOSIGNAL - not found
--- Looking for PF_INET6
--- Looking for PF_INET6 - found
--- Looking for SO_NONBLOCK
--- Looking for SO_NONBLOCK - not found
--- Looking for CLOCK_MONOTONIC
--- Looking for CLOCK_MONOTONIC - found
--- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID
--- Performing Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID - Success
--- Performing Test HAVE_LL
--- Performing Test HAVE_LL - Success
--- Looking for bitncmp
--- Looking for bitncmp - not found
--- Looking for closesocket
--- Looking for closesocket - not found
--- Looking for CloseSocket
--- Looking for CloseSocket - not found
--- Looking for connect
--- Looking for connect - found
--- Looking for fcntl
--- Looking for fcntl - found
--- Looking for freeaddrinfo
--- Looking for freeaddrinfo - found
--- Looking for getaddrinfo
--- Looking for getaddrinfo - found
--- Looking for getenv
--- Looking for getenv - found
--- Looking for gethostbyaddr
--- Looking for gethostbyaddr - found
--- Looking for gethostbyname
--- Looking for gethostbyname - found
--- Looking for gethostname
--- Looking for gethostname - found
--- Looking for getnameinfo
--- Looking for getnameinfo - found
--- Looking for getservbyport_r
--- Looking for getservbyport_r - not found
--- Looking for gettimeofday
--- Looking for gettimeofday - found
--- Looking for if_indextoname
--- Looking for if_indextoname - found
--- Looking for inet_net_pton
--- Looking for inet_net_pton - found
--- Looking for inet_ntop
--- Looking for inet_ntop - found
--- Looking for inet_pton
--- Looking for inet_pton - found
--- Looking for ioctl
--- Looking for ioctl - found
--- Looking for ioctlsocket
--- Looking for ioctlsocket - not found
--- Looking for IoctlSocket
--- Looking for IoctlSocket - not found
--- Looking for recv
--- Looking for recv - found
--- Looking for recvfrom
--- Looking for recvfrom - found
--- Looking for send
--- Looking for send - found
--- Looking for setsockopt
--- Looking for setsockopt - found
--- Looking for socket
--- Looking for socket - found
--- Looking for strcasecmp
--- Looking for strcasecmp - found
--- Looking for strcmpi
--- Looking for strcmpi - not found
--- Looking for strdup
--- Looking for strdup - found
--- Looking for stricmp
--- Looking for stricmp - not found
--- Looking for strncasecmp
--- Looking for strncasecmp - found
--- Looking for strncmpi
--- Looking for strncmpi - not found
--- Looking for strnicmp
--- Looking for strnicmp - not found
--- Looking for writev
--- Looking for writev - found
--- Found Perl: /usr/bin/perl (found version "5.18.4") 
--- The ASM compiler identification is Clang
--- Found assembler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+running: "cmake" "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc" "-DgRPC_INSTALL=false" "-DgRPC_BUILD_CSHARP_EXT=false" "-DgRPC_BUILD_CODEGEN=false" "-DgRPC_BENCHMARK_PROVIDER=none" "-DCMAKE_INSTALL_PREFIX=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -stdlib=libc++ -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_BUILD_TYPE=Debug"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+-- Build files have been written to: /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 running: "cmake" "--build" "." "--target" "grpc" "--config" "Debug" "--"
-[  0%] Generating err_data.c
-Scanning dependencies of target stack
-Scanning dependencies of target buf
-Scanning dependencies of target lhash
-Scanning dependencies of target base64
-Scanning dependencies of target bytestring
 Scanning dependencies of target fiat
-[  0%] Building C object third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/stack.c.o
+[  0%] Built target fiat
 Scanning dependencies of target crypto_base
-[  0%] Building C object third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/lhash.c.o
-[  2%] Building C object third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/base64.c.o
-[  2%] Building C object third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/buf.c.o
-[  2%] Building C object third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/asn1_compat.c.o
-[  2%] Building C object third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/curve25519.c.o
-[  2%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/cpu-aarch64-fuchsia.c.o
-[  2%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/cpu-aarch64-linux.c.o
-[  2%] Building C object third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/ber.c.o
-[  2%] Built target lhash
-[  2%] Built target buf
-[  2%] Built target base64
+[  2%] Built target crypto_base
+Scanning dependencies of target stack
 [  2%] Built target stack
-[  2%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/cpu-arm.c.o
-Scanning dependencies of target rc4
+Scanning dependencies of target lhash
+[  2%] Built target lhash
+[  2%] Generating err_data.c
+Scanning dependencies of target buf
+[  4%] Built target buf
+Scanning dependencies of target base64
+[  4%] Built target base64
+Scanning dependencies of target bytestring
+[  4%] Built target bytestring
 Scanning dependencies of target pool
-Scanning dependencies of target conf
-[  2%] Building C object third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o
-[  2%] Building C object third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbs.c.o
-[  2%] Building C object third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/pool.c.o
-[  2%] Building C object third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/conf.c.o
-[  2%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/cpu-arm-linux.c.o
-[  2%] Building C object third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/cbb.c.o
-[  2%] Built target rc4
-[  2%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/cpu-intel.c.o
-[  2%] Generating chacha-x86_64.S
-[  2%] Built target pool
-[  2%] Built target fiat
-[  2%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/cpu-ppc64le.c.o
-[  2%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/crypto.c.o
-Scanning dependencies of target poly1305
-[  2%] Building C object third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o
-[  2%] Building C object third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o
-[  2%] Built target conf
-[  2%] Built target bytestring
-Scanning dependencies of target curve25519
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/ex_data.c.o
-[  4%] Building C object third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o
-[  4%] Building C object third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.o
-Scanning dependencies of target digest_extra
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/mem.c.o
-[  4%] Building C object third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/digest_extra.c.o
-[  4%] Generating chacha20_poly1305_x86_64.S
-[  4%] Built target curve25519
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/refcount_c11.c.o
-Scanning dependencies of target rand_extra
-[  4%] Generating aes128gcmsiv-x86_64.S
-[  4%] Building C object third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/deterministic.c.o
-[  4%] Built target digest_extra
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/refcount_lock.c.o
-Scanning dependencies of target chacha
-[  4%] Building C object third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/forkunsafe.c.o
-[  4%] Building C object third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha.c.o
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/thread.c.o
-[  4%] Built target poly1305
-[  4%] Building C object third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/fuchsia.c.o
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/thread_none.c.o
-Scanning dependencies of target bio
-[  4%] Building ASM object third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha-x86_64.S.o
-[  4%] Building C object third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rand_extra.c.o
-Scanning dependencies of target bn_extra
-[  4%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/bio.c.o
-[  4%] Building C object third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/bn_asn1.c.o
-[  4%] Built target chacha
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/thread_pthread.c.o
-[  4%] Building C object third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/windows.c.o
-[  4%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/bio_mem.c.o
-[  4%] Building C object third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/convert.c.o
-[  4%] Built target rand_extra
-[  4%] Building C object third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/thread_win.c.o
-[  4%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/connect.c.o
+[  4%] Built target pool
+Scanning dependencies of target rc4
+[  4%] Built target rc4
 Scanning dependencies of target err
+[  4%] Building C object third_party/boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o
+[  4%] Built target err
+Scanning dependencies of target conf
+[  4%] Built target conf
+[  4%] Generating chacha-x86_64.S
+Scanning dependencies of target chacha
+[  4%] Building ASM object third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/chacha-x86_64.S.o
+[  4%] Built target chacha
+Scanning dependencies of target poly1305
+[  4%] Built target poly1305
+Scanning dependencies of target curve25519
+[  4%] Built target curve25519
+Scanning dependencies of target digest_extra
+[  4%] Built target digest_extra
+[  4%] Generating chacha20_poly1305_x86_64.S
+[  4%] Generating aes128gcmsiv-x86_64.S
+Scanning dependencies of target rand_extra
+[  4%] Built target rand_extra
+Scanning dependencies of target bn_extra
+Scanning dependencies of target bio
+[  4%] Built target bn_extra
+[  6%] Built target bio
 Scanning dependencies of target obj
-[  4%] Building C object third_party/boringssl/crypto/err/CMakeFiles/err.dir/err.c.o
-[  6%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/fd.c.o
-[  6%] Building C object third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/obj.c.o
-[  6%] Built target crypto_base
-[  6%] Built target bn_extra
-[  6%] Building C object third_party/boringssl/crypto/err/CMakeFiles/err.dir/err_data.c.o
-[  6%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/file.c.o
-Scanning dependencies of target asn1
-[  6%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bitstr.c.o
-[  6%] Building C object third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/obj_xref.c.o
 Scanning dependencies of target engine
-[  6%] Built target err
-Scanning dependencies of target dh
-[  6%] Building C object third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/engine.c.o
-[  6%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bool.c.o
-[  6%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/hexdump.c.o
-[  6%] Building C object third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/dh.c.o
-Scanning dependencies of target dsa
-[  6%] Building C object third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/params.c.o
-[  6%] Building C object third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa.c.o
 [  6%] Built target obj
 [  6%] Built target engine
-[  6%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_d2i_fp.c.o
-[  6%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/pair.c.o
-[  9%] Building C object third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/dsa_asn1.c.o
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_dup.c.o
-[  9%] Building C object third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/check.c.o
-Scanning dependencies of target rsa_extra
-[  9%] Building C object third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/rsa_asn1.c.o
-[  9%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/printf.c.o
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_enum.c.o
-[  9%] Building C object third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/dh_asn1.c.o
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_gentm.c.o
+Scanning dependencies of target asn1
+Scanning dependencies of target dh
+Scanning dependencies of target dsa
+[  6%] Built target dh
+[  6%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bitstr.c.o
 [  9%] Built target dsa
+Scanning dependencies of target rsa_extra
 Scanning dependencies of target ec_extra
-[  9%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/socket.c.o
-[  9%] Building C object third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/ec_asn1.c.o
 [  9%] Built target rsa_extra
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_i2d_fp.c.o
-[  9%] Built target dh
-[  9%] Building C object third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/socket_helper.c.o
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_int.c.o
-Scanning dependencies of target ecdh
-Scanning dependencies of target ecdsa_extra
-[  9%] Building C object third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/ecdh.c.o
-[  9%] Building C object third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/ecdsa_asn1.c.o
-Scanning dependencies of target cmac
-[  9%] Building C object third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/cmac.c.o
-[  9%] Built target bio
 [  9%] Built target ec_extra
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_mbstr.c.o
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_object.c.o
+[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_bool.c.o
+[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_d2i_fp.c.o
+Scanning dependencies of target ecdh
+[  9%] Built target ecdh
+Scanning dependencies of target ecdsa_extra
+[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_dup.c.o
+[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_enum.c.o
+[  9%] Built target ecdsa_extra
+[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_gentm.c.o
+Scanning dependencies of target cmac
+[  9%] Built target cmac
+[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_i2d_fp.c.o
 Scanning dependencies of target hkdf
 Scanning dependencies of target evp
-[  9%] Built target ecdh
-[  9%] Built target ecdsa_extra
-[  9%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_octet.c.o
-[ 11%] Building C object third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/hkdf.c.o
-[ 11%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/digestsign.c.o
-[ 11%] Built target cmac
-[ 11%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_print.c.o
-[ 11%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_strnid.c.o
-[ 11%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/evp.c.o
 [ 11%] Built target hkdf
-[ 11%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/evp_asn1.c.o
-[ 11%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_time.c.o
+[ 11%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_int.c.o
+[ 13%] Built target evp
 Scanning dependencies of target pem
-[ 11%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/evp_ctx.c.o
-[ 11%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_all.c.o
-[ 11%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_info.c.o
-[ 11%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_type.c.o
-[ 11%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/p_dsa_asn1.c.o
-[ 11%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_lib.c.o
-Scanning dependencies of target x509v3
-Scanning dependencies of target x509
+[ 13%] Built target pem
+[ 13%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_mbstr.c.o
 Scanning dependencies of target cipher_extra
-[ 11%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_cache.c.o
-[ 11%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utctm.c.o
-[ 11%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/a_digest.c.o
-[ 11%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec.c.o
-[ 11%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_oth.c.o
-[ 11%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/cipher_extra.c.o
+Scanning dependencies of target x509v3
+[ 13%] Building ASM object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/aes128gcmsiv-x86_64.S.o
+[ 13%] Building ASM object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/chacha20_poly1305_x86_64.S.o
+Scanning dependencies of target x509
+[ 18%] Built target x509v3
+[ 18%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_object.c.o
+[ 18%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_octet.c.o
+[ 25%] Built target x509
+[ 25%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_print.c.o
 Scanning dependencies of target pkcs7
-[ 11%] Building C object third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/pkcs7.c.o
-[ 11%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/derive_key.c.o
-[ 13%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utf8.c.o
-[ 13%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ec_asn1.c.o
-[ 13%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/a_sign.c.o
-[ 13%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pk8.c.o
+[ 25%] Built target pkcs7
+[ 25%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_strnid.c.o
+[ 27%] Built target cipher_extra
+[ 27%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_time.c.o
 Scanning dependencies of target pkcs8_lib
-[ 13%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_null.c.o
-[ 13%] Building C object third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/pkcs7_x509.c.o
-[ 15%] Building C object third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/pkcs8.c.o
-[ 15%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_lib.c.o
-[ 15%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_data.c.o
-[ 15%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ed25519.c.o
-[ 15%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/a_strex.c.o
-[ 15%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_rc2.c.o
-[ 15%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_pkey.c.o
-[ 15%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/p_ed25519_asn1.c.o
-[ 15%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn1_par.c.o
-[ 15%] Built target pkcs7
-[ 15%] Building C object third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/pkcs8_x509.c.o
-[ 15%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_lib.c.o
-[ 15%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_rc4.c.o
-[ 15%] Building C object third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/p5_pbev2.c.o
-[ 15%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/asn_pack.c.o
-[ 18%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa.c.o
-[ 18%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/a_verify.c.o
-[ 18%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_x509.c.o
-[ 18%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_aesgcmsiv.c.o
-[ 18%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_enum.c.o
-[ 18%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_map.c.o
-[ 18%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/p_rsa_asn1.c.o
-[ 18%] Built target pkcs8_lib
-[ 18%] Building C object third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/pem_xaux.c.o
-[ 18%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_int.c.o
-[ 18%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_aesctrhmac.c.o
-[ 18%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/algorithm.c.o
-[ 18%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_node.c.o
-[ 18%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/pbkdf.c.o
-[ 18%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/f_string.c.o
-[ 18%] Generating x86_64-mont.S
-[ 18%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/print.c.o
-[ 18%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/asn1_gen.c.o
-[ 20%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_aesccm.c.o
-[ 20%] Built target pem
-[ 20%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_dec.c.o
-[ 20%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/by_dir.c.o
-[ 20%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/scrypt.c.o
-[ 20%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/pcy_tree.c.o
-[ 20%] Generating aesni-gcm-x86_64.S
-[ 20%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_chacha20poly1305.c.o
-[ 20%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_enc.c.o
-[ 20%] Building C object third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/sign.c.o
-[ 20%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_akey.c.o
-[ 20%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/tls_cbc.c.o
-[ 20%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/by_file.c.o
-Scanning dependencies of target c-ares
-[ 20%] Generating aesni-x86_64.S
-[ 20%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__close_sockets.c.o
-[ 20%] Built target evp
-[ 20%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_fre.c.o
-[ 20%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_akeya.c.o
-[ 20%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_tls.c.o
-[ 20%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_new.c.o
-[ 22%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/i2d_pr.c.o
-[ 22%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__get_hostent.c.o
-[ 22%] Generating aes-x86_64.S
+[ 27%] Generating x86_64-mont.S
+[ 29%] Built target pkcs8_lib
+[ 29%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_type.c.o
+[ 29%] Generating aesni-gcm-x86_64.S
 Scanning dependencies of target address_sorting
-[ 22%] Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.o
-[ 22%] Building C object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/e_ssl3.c.o
-[ 22%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_typ.c.o
-[ 22%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/rsa_pss.c.o
-[ 22%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__read_line.c.o
-[ 22%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_alt.c.o
-[ 22%] Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.o
-[ 22%] Building ASM object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/aes128gcmsiv-x86_64.S.o
-[ 22%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/tasn_utl.c.o
-[ 22%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__timeval.c.o
-[ 22%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/t_crl.c.o
-[ 22%] Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o
-[ 22%] Building ASM object third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/chacha20_poly1305_x86_64.S.o
-[ 22%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_cancel.c.o
-[ 22%] Linking C static library libaddress_sorting.a
-[ 22%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_bcons.c.o
-[ 22%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/time_support.c.o
+[ 29%] Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.o
+[ 29%] Building C object third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/a_utctm.c.o
+[ 29%] Generating aesni-x86_64.S
+[ 29%] Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.o
 Scanning dependencies of target gpr
-[ 22%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.o
-[ 22%] Built target cipher_extra
-[ 22%] Built target address_sorting
-[ 22%] Generating bsaes-x86_64.S
-[ 22%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_data.c.o
-[ 22%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/t_req.c.o
-[ 22%] Built target asn1
-[ 22%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_bitst.c.o
-[ 22%] Generating ghash-x86_64.S
-[ 22%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.o
-[ 22%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509.c.o
-[ 22%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_destroy.c.o
-[ 22%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.o
-[ 25%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_conf.c.o
+[ 31%] Built target asn1
+[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.o
+[ 31%] Generating aes-x86_64.S
+[ 31%] Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o
+[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.o
+[ 31%] Linking C static library libaddress_sorting.a
+[ 31%] Built target address_sorting
+[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.o
+[ 31%] Generating bsaes-x86_64.S
 Scanning dependencies of target zlibstatic
-[ 25%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_expand_name.c.o
-[ 25%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/adler32.o
-[ 25%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/t_x509a.c.o
-[ 25%] Generating md5-x86_64.S
-[ 25%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_expand_string.c.o
-[ 25%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/compress.o
-[ 25%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_fds.c.o
-[ 25%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_cpols.c.o
-[ 25%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509.c.o
-[ 25%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.o
-[ 25%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/crc32.o
-[ 27%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.o
-[ 27%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_free_hostent.c.o
-[ 27%] Generating p256-x86_64-asm.S
-[ 27%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_crld.c.o
-[ 27%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/deflate.o
-[ 27%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.o
-[ 27%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_free_string.c.o
-[ 27%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.o
-[ 27%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_att.c.o
-[ 29%] Generating rdrand-x86_64.S
-[ 29%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.o
-[ 29%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_getenv.c.o
-[ 29%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzclose.o
-[ 29%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.o
-[ 29%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_cmp.c.o
-[ 29%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_enum.c.o
-[ 29%] Generating rsaz-avx2.S
-[ 29%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzlib.o
-[ 29%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_gethostbyaddr.c.o
-[ 31%] Generating sha1-x86_64.S
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_extku.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzread.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_gethostbyname.c.o
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_genn.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.o
-[ 31%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_d2.c.o
-[ 31%] Generating sha256-x86_64.S
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_getnameinfo.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.o
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_ia5.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.o
-[ 31%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_def.c.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/inflate.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_getsock.c.o
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_info.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_init.c.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/infback.o
-[ 31%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_ext.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.o
-[ 31%] Generating sha512-x86_64.S
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.o
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_int.c.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/inftrees.o
-[ 31%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_lu.c.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_library_init.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/inffast.o
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_lib.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.o
-[ 31%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_obj.c.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_llist.c.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/trees.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_mkquery.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.o
-[ 31%] Generating vpaes-x86_64.S
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_ncons.c.o
-[ 31%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_r2x.c.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_create_query.c.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/uncompr.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.o
-[ 31%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pci.c.o
-[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.o
-[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/zutil.o
-[ 31%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_nowarn.c.o
-[ 31%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_req.c.o
-[ 34%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.o
-[ 34%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pcia.c.o
-[ 34%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_options.c.o
-[ 36%] Linking C static library libz.a
-[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.o
-[ 36%] Generating x86_64-mont5.S
-[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_a_reply.c.o
-[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.o
-[ 36%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_set.c.o
-[ 36%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pcons.c.o
-[ 36%] Built target zlibstatic
-[ 36%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_trs.c.o
-[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_aaaa_reply.c.o
-[ 38%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_txt.c.o
-[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.o
-[ 38%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_v3.c.o
-[ 38%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_mx_reply.c.o
-[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.o
-[ 38%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pku.c.o
-[ 38%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_naptr_reply.c.o
-[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.o
-[ 38%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_pmaps.c.o
-[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.o
-[ 38%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vfy.c.o
-[ 38%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_ns_reply.c.o
-[ 38%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_prn.c.o
-[ 38%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509_vpm.c.o
-[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.o
-[ 38%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_ptr_reply.c.o
-[ 38%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509cset.c.o
-[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.o
-[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.o
+[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/adler32.o
+[ 31%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.o
+[ 31%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/compress.o
+[ 34%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.o
+[ 34%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.o
+[ 34%] Generating ghash-x86_64.S
+Scanning dependencies of target c-ares
+[ 34%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/crc32.o
+[ 34%] Generating md5-x86_64.S
+[ 34%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__close_sockets.c.o
+[ 34%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.o
+[ 34%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/deflate.o
+[ 34%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.o
+[ 34%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzclose.o
+[ 34%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__get_hostent.c.o
+[ 34%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.o
+[ 34%] Generating p256-x86_64-asm.S
+[ 34%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__read_line.c.o
+[ 34%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.o
+[ 36%] Generating rdrand-x86_64.S
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzlib.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares__timeval.c.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_cancel.c.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.o
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzread.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_data.c.o
+[ 36%] Generating rsaz-avx2.S
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.o
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/gzwrite.o
+[ 36%] Generating sha1-x86_64.S
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_destroy.c.o
+[ 36%] Generating sha256-x86_64.S
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/inflate.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_expand_name.c.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_expand_string.c.o
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/infback.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.o
+[ 36%] Generating sha512-x86_64.S
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_fds.c.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.o
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/inftrees.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_free_hostent.c.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.o
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/inffast.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_free_string.c.o
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.o
+[ 36%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/trees.o
+[ 36%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_getenv.c.o
+[ 36%] Generating vpaes-x86_64.S
+[ 36%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.o
+[ 38%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_gethostbyaddr.c.o
+[ 38%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.o
+[ 38%] Generating x86_64-mont5.S
+[ 40%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.o
+[ 40%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/uncompr.o
+[ 40%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_gethostbyname.c.o
+[ 40%] Building C object third_party/zlib/CMakeFiles/zlibstatic.dir/zutil.o
+[ 40%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.o
+[ 40%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_getnameinfo.c.o
+[ 40%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_getsock.c.o
+[ 43%] Linking C static library libz.a
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_init.c.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_library_init.c.o
+[ 43%] Built target zlibstatic
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.o
 Scanning dependencies of target fipsmodule
-[ 38%] Building C object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/bcm.c.o
-[ 38%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_purp.c.o
-[ 40%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_soa_reply.c.o
-[ 40%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.o
-[ 40%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509name.c.o
-[ 43%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_skey.c.o
-[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_srv_reply.c.o
-[ 43%] Building C object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/is_fips.c.o
-[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_txt_reply.c.o
-[ 43%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_sxnet.c.o
-[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.o
-[ 43%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509rset.c.o
 [ 43%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/aesni-gcm-x86_64.S.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_platform.c.o
-[ 43%] Building C object third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/v3_utl.c.o
-[ 43%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x509spki.c.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_process.c.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_llist.c.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_mkquery.c.o
 [ 43%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/aesni-x86_64.S.o
-[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.o
-[ 43%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_algor.c.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_query.c.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_create_query.c.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_nowarn.c.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.o
 [ 43%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/aes-x86_64.S.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_search.c.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_options.c.o
 [ 43%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/bsaes-x86_64.S.o
-[ 43%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_all.c.o
-[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o
-[ 43%] Built target x509v3
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_a_reply.c.o
 [ 43%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/ghash-x86_64.S.o
-[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o
-[ 43%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_attrib.c.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_send.c.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_aaaa_reply.c.o
 [ 43%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/md5-x86_64.S.o
-[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_strcasecmp.c.o
-[ 43%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_crl.c.o
-[ 45%] Linking C static library libgpr.a
-[ 45%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_strdup.c.o
-[ 45%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_exten.c.o
-[ 45%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/p256-x86_64-asm.S.o
-[ 45%] Built target gpr
-[ 45%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_strerror.c.o
-[ 47%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rdrand-x86_64.S.o
-[ 47%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_info.c.o
-[ 47%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rsaz-avx2.S.o
-[ 47%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_timeout.c.o
-[ 47%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_name.c.o
-[ 47%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha1-x86_64.S.o
-[ 47%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha256-x86_64.S.o
-[ 47%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_pkey.c.o
-[ 47%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_version.c.o
-[ 47%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha512-x86_64.S.o
-[ 47%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_pubkey.c.o
-[ 47%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_writev.c.o
-[ 47%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_req.c.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.o
+[ 43%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_mx_reply.c.o
+[ 43%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/p256-x86_64-asm.S.o
+[ 43%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.o
+[ 45%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rdrand-x86_64.S.o
+[ 45%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_naptr_reply.c.o
+[ 45%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_ns_reply.c.o
+[ 45%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rsaz-avx2.S.o
+[ 45%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o
+[ 45%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha1-x86_64.S.o
+[ 45%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha256-x86_64.S.o
+[ 45%] Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o
+[ 45%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_ptr_reply.c.o
+[ 45%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/sha512-x86_64.S.o
+[ 47%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_soa_reply.c.o
 [ 47%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/vpaes-x86_64.S.o
-[ 47%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/bitncmp.c.o
-[ 47%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/x86_64-mont5.S.o
-[ 47%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/inet_net_pton.c.o
-[ 50%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_sig.c.o
+[ 50%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/x86_64-mont5.S.o
+[ 50%] Linking C static library libgpr.a
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_srv_reply.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_parse_txt_reply.c.o
 [ 50%] Building ASM object third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/x86_64-mont.S.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_platform.c.o
+[ 50%] Built target gpr
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_process.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_query.c.o
+[ 50%] Built target fipsmodule
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_search.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_send.c.o
+Scanning dependencies of target crypto
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_strcasecmp.c.o
+[ 50%] Linking C static library libcrypto.a
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_strdup.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_strerror.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_timeout.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_version.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/ares_writev.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/bitncmp.c.o
+[ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/inet_net_pton.c.o
 [ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/inet_ntop.c.o
 [ 50%] Building C object third_party/cares/cares/CMakeFiles/c-ares.dir/windows_port.c.o
-[ 50%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_spki.c.o
-[ 50%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_val.c.o
-[ 50%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509.c.o
-[ 50%] Building C object third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/x_x509a.c.o
 [ 52%] Linking C static library lib/libcares.a
-[ 52%] Built target c-ares
-[ 52%] Built target x509
-[ 52%] Built target fipsmodule
-Scanning dependencies of target crypto
-[ 52%] Linking C static library libcrypto.a
 [ 52%] Built target crypto
+[ 52%] Built target c-ares
 Scanning dependencies of target ssl
-[ 52%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/bio_ssl.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/d1_both.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/custom_extensions.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/d1_lib.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/d1_srtp.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/d1_pkt.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/dtls_method.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/dtls_record.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/handoff.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/handshake.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/handshake_client.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/handshake_server.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/s3_both.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/s3_lib.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/s3_pkt.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_aead_ctx.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_asn1.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_buffer.cc.o
-[ 54%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_cert.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_cipher.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_file.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_key_share.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_lib.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_privkey.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_session.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_stat.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_transcript.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_versions.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/ssl_x509.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/t1_enc.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/t1_lib.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/tls_method.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/tls_record.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/tls13_both.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/tls13_client.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/tls13_enc.cc.o
-[ 56%] Building CXX object third_party/boringssl/ssl/CMakeFiles/ssl.dir/tls13_server.cc.o
-[ 59%] Linking CXX static library libssl.a
+[ 54%] Linking CXX static library libssl.a
 [ 59%] Built target ssl
 Scanning dependencies of target grpc
 [ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/avl/avl.cc.o
-[ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/backoff/backoff.cc.o
 [ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/init.cc.o
 [ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/channel/channel_args.cc.o
-[ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/channel/channel_stack.cc.o
+[ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/backoff/backoff.cc.o
 [ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/channel/channel_stack_builder.cc.o
+[ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/channel/channel_stack.cc.o
 [ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/channel/channel_trace.cc.o
 [ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/channel/channelz.cc.o
 [ 59%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/channel/channelz_registry.cc.o
@@ -745,8 +282,8 @@ Scanning dependencies of target grpc
 [ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/debug/stats.cc.o
 [ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/debug/stats_data.cc.o
 [ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/http/format_request.cc.o
-[ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/http/parser.cc.o
 [ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/http/httpcli.cc.o
+[ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/http/parser.cc.o
 [ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/buffer_list.cc.o
 [ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/call_combiner.cc.o
 [ 61%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/combiner.cc.o
@@ -786,22 +323,22 @@ Scanning dependencies of target grpc
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/pollset_set_custom.cc.o
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/pollset_set_windows.cc.o
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/pollset_uv.cc.o
+[ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/resolve_address.cc.o
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/pollset_windows.cc.o
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/resolve_address_custom.cc.o
-[ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/resolve_address.cc.o
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/resolve_address_posix.cc.o
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/resolve_address_windows.cc.o
 [ 65%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/resource_quota.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/sockaddr_utils.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_factory_posix.cc.o
-[ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_mutator.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_utils_common_posix.cc.o
+[ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_mutator.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_utils_linux.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_utils_posix.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_utils_uv.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_utils_windows.cc.o
-[ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_windows.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_client.cc.o
+[ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/socket_windows.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_client_custom.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_client_posix.cc.o
 [ 68%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_client_windows.cc.o
@@ -815,8 +352,8 @@ Scanning dependencies of target grpc
 [ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_server_utils_posix_noifaddrs.cc.o
 [ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_server_windows.cc.o
 [ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_uv.cc.o
-[ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_windows.cc.o
 [ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/time_averaged_stats.cc.o
+[ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/tcp_windows.cc.o
 [ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/timer.cc.o
 [ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/timer_custom.cc.o
 [ 70%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/iomgr/timer_generic.cc.o
@@ -838,15 +375,15 @@ Scanning dependencies of target grpc
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/slice/b64.cc.o
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/slice/percent_encoding.cc.o
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/slice/slice.cc.o
-[ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/slice/slice_buffer.cc.o
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/slice/slice_intern.cc.o
+[ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/slice/slice_buffer.cc.o
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/slice/slice_string_helpers.cc.o
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/api_trace.cc.o
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/byte_buffer.cc.o
 [ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/byte_buffer_reader.cc.o
-[ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/call_log_batch.cc.o
-[ 75%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/call.cc.o
+[ 72%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/call.cc.o
 [ 75%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/call_details.cc.o
+[ 75%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/call_log_batch.cc.o
 [ 75%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/channel.cc.o
 [ 75%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/channel_init.cc.o
 [ 75%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/surface/channel_ping.cc.o
@@ -865,8 +402,8 @@ Scanning dependencies of target grpc
 [ 75%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/error_utils.cc.o
 [ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/metadata.cc.o
 [ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/metadata_batch.cc.o
-[ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/service_config.cc.o
 [ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/pid_controller.cc.o
+[ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/service_config.cc.o
 [ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/static_metadata.cc.o
 [ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/status_conversion.cc.o
 [ 77%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/transport/status_metadata.cc.o
@@ -926,8 +463,8 @@ Scanning dependencies of target grpc
 [ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/security_connector/load_system_roots_linux.cc.o
 [ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/security_connector/local/local_security_connector.cc.o
 [ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/security_connector/security_connector.cc.o
-[ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/security_connector/ssl_utils.cc.o
 [ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/security_connector/ssl/ssl_security_connector.cc.o
+[ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/security_connector/ssl_utils.cc.o
 [ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/transport/client_auth_filter.cc.o
 [ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/transport/secure_endpoint.cc.o
 [ 84%] Building CXX object CMakeFiles/grpc.dir/src/core/lib/security/transport/security_handshaker.cc.o
@@ -940,9 +477,9 @@ Scanning dependencies of target grpc
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/crypt/gsec.cc.o
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/alts_counter.cc.o
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/alts_crypter.cc.o
+[ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/alts_record_protocol_crypter_common.cc.o
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/alts_frame_protector.cc.o
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/alts_seal_privacy_integrity_crypter.cc.o
-[ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/alts_record_protocol_crypter_common.cc.o
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/alts_unseal_privacy_integrity_crypter.cc.o
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/frame_protector/frame_handler.cc.o
 [ 86%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/alts/handshaker/alts_handshaker_client.cc.o
@@ -1002,9 +539,9 @@ Scanning dependencies of target grpc
 [ 93%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/fake_transport_security.cc.o
 [ 93%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/local_transport_security.cc.o
 [ 93%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/ssl/session_cache/ssl_session_boringssl.cc.o
+[ 93%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/ssl/session_cache/ssl_session_openssl.cc.o
 [ 93%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/ssl/session_cache/ssl_session_cache.cc.o
 [ 93%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/ssl_transport_security.cc.o
-[ 93%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/ssl/session_cache/ssl_session_openssl.cc.o
 [ 95%] Building CXX object CMakeFiles/grpc.dir/src/core/tsi/transport_security_grpc.cc.o
 [ 95%] Building CXX object CMakeFiles/grpc.dir/src/core/ext/transport/chttp2/server/chttp2_server.cc.o
 [ 95%] Building CXX object CMakeFiles/grpc.dir/src/core/ext/transport/chttp2/client/secure/secure_channel_create.cc.o
@@ -1046,13 +583,13 @@ Scanning dependencies of target grpc
 [100%] Building CXX object CMakeFiles/grpc.dir/src/core/plugin_registry/grpc_plugin_registry.cc.o
 [100%] Linking C static library libgrpc.a
 [100%] Built target grpc
-cargo:root=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out
+cargo:root=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out
 cargo:rerun-if-env-changed=CARGO_CFG_TARGET_OS
-cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
-cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/cares/cares/lib
-cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/zlib
-cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/ssl
-cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto
+cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/cares/cares/lib
+cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/zlib
+cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/ssl
+cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto
 cargo:rustc-link-lib=static=z
 cargo:rustc-link-lib=static=cares
 cargo:rustc-link-lib=static=gpr
@@ -1075,16 +612,16 @@ CXXFLAGS = None
 CRATE_CC_NO_DEFAULTS = None
 DEBUG = Some("true")
 CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2,sse3,ssse3")
-running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "grpc/include" "-Wall" "-Wextra" "-std=c++11" "-DGRPC_SYS_SECURE" "-Werror" "-o" "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/grpc_wrap.o" "-c" "grpc_wrap.cc"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "grpc/include" "-Wall" "-Wextra" "-std=c++11" "-DGRPC_SYS_SECURE" "-Werror" "-o" "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/grpc_wrap.o" "-c" "grpc_wrap.cc"
 exit code: 0
 AR_x86_64-apple-darwin = None
 AR_x86_64_apple_darwin = None
 HOST_AR = None
 AR = None
-running: "ar" "crs" "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/libgrpc_wrap.a" "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/grpc_wrap.o"
+running: "ar" "crs" "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/libgrpc_wrap.a" "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/grpc_wrap.o"
 exit code: 0
 cargo:rustc-link-lib=static=grpc_wrap
-cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out
+cargo:rustc-link-search=native=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out
 CXXSTDLIB_x86_64-apple-darwin = None
 CXXSTDLIB_x86_64_apple_darwin = None
 HOST_CXXSTDLIB = None

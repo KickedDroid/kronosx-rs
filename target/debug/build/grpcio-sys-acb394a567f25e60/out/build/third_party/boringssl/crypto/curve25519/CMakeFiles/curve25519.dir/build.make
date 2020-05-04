@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 
 # Include any dependencies generated for this target.
 include third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/depend.make
@@ -59,16 +59,16 @@ include third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/flags.
 
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.o: third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/flags.make
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519/spake25519.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.o"
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/curve25519.dir/spake25519.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519/spake25519.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.o"
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/curve25519.dir/spake25519.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519/spake25519.c
 
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/curve25519.dir/spake25519.c.i"
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519/spake25519.c > CMakeFiles/curve25519.dir/spake25519.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519/spake25519.c > CMakeFiles/curve25519.dir/spake25519.c.i
 
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/curve25519.dir/spake25519.c.s"
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519/spake25519.c -o CMakeFiles/curve25519.dir/spake25519.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519/spake25519.c -o CMakeFiles/curve25519.dir/spake25519.c.s
 
 curve25519: third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/spake25519.c.o
 curve25519: third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/build.make
@@ -81,10 +81,10 @@ third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/build: curve25
 .PHONY : third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/build
 
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && $(CMAKE_COMMAND) -P CMakeFiles/curve25519.dir/cmake_clean.cmake
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 && $(CMAKE_COMMAND) -P CMakeFiles/curve25519.dir/cmake_clean.cmake
 .PHONY : third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/clean
 
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519 /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/curve25519 /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519 /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/depend
 

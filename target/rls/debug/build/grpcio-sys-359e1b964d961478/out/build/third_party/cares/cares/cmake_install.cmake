@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out")
+  set(CMAKE_INSTALL_PREFIX "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/lib/libcares.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/lib/libcares.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcares.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcares.a")
     execute_process(COMMAND "/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcares.a")
@@ -45,7 +45,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/cares/cares/ares.h"
     "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/cares/cares/ares_version.h"
     "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/cares/cares/ares_dns.h"
-    "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/ares_build.h"
+    "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/ares_build.h"
     "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/cares/cares/ares_rules.h"
     )
 endif()
@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares/c-ares-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares/c-ares-targets.cmake"
-         "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/CMakeFiles/Export/lib/cmake/c-ares/c-ares-targets.cmake")
+         "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/CMakeFiles/Export/lib/cmake/c-ares/c-ares-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares/c-ares-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -63,18 +63,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/CMakeFiles/Export/lib/cmake/c-ares/c-ares-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/CMakeFiles/Export/lib/cmake/c-ares/c-ares-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/CMakeFiles/Export/lib/cmake/c-ares/c-ares-targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/CMakeFiles/Export/lib/cmake/c-ares/c-ares-targets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/c-ares-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/c-ares" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/c-ares-config.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/bin/ahost")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/bin/ahost")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ahost" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ahost")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -84,7 +84,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/bin/adig")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/bin/adig")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/adig" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/adig")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/bin/acountry")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/cares/cares/bin/acountry")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/acountry" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/acountry")
     if(CMAKE_INSTALL_DO_STRIP)

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out")
+  set(CMAKE_INSTALL_PREFIX "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -3169,11 +3169,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/grpc" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/gRPCConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/grpc" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/gRPCConfig.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/grpc" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/gRPCConfigVersion.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/grpc" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/gRPCConfigVersion.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -3182,9 +3182,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/zlib/cmake_install.cmake")
-  include("/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/cares/cares/cmake_install.cmake")
-  include("/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/cmake_install.cmake")
+  include("/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/zlib/cmake_install.cmake")
+  include("/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/cares/cares/cmake_install.cmake")
+  include("/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/cmake_install.cmake")
 
 endif()
 
@@ -3196,5 +3196,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

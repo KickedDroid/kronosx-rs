@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out")
+  set(CMAKE_INSTALL_PREFIX "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,8 +42,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib" TYPE SHARED_LIBRARY FILES
-    "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.1.2.11.dylib"
-    "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.1.dylib"
+    "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.1.2.11.dylib"
+    "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.1.dylib"
     )
   foreach(file
       "$ENV{DESTDIR}/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib/libz.1.2.11.dylib"
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib" TYPE SHARED_LIBRARY FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.dylib")
+file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib" TYPE SHARED_LIBRARY FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.dylib")
   if(EXISTS "$ENV{DESTDIR}/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib/libz.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib/libz.dylib")
     execute_process(COMMAND "/usr/bin/install_name_tool"
@@ -91,7 +91,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib" TYPE STATIC_LIBRARY FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.a")
+file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib" TYPE STATIC_LIBRARY FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/libz.a")
   if(EXISTS "$ENV{DESTDIR}/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib/libz.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib/libz.a")
     execute_process(COMMAND "/usr/bin/ranlib" "$ENV{DESTDIR}/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/lib/libz.a")
@@ -108,7 +108,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/include" TYPE FILE FILES
-    "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/zconf.h"
+    "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/zconf.h"
     "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/zlib/zlib.h"
     )
 endif()
@@ -134,6 +134,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/share/pkgconfig" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/zlib.pc")
+file(INSTALL DESTINATION "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/share/pkgconfig" TYPE FILE FILES "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/zlib/zlib.pc")
 endif()
 

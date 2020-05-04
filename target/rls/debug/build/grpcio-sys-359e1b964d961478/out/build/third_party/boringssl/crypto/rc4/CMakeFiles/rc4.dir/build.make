@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
 
 # Include any dependencies generated for this target.
 include third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/depend.make
@@ -59,16 +59,16 @@ include third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/flags.make
 
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o: third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/flags.make
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o"
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rc4.dir/rc4.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o"
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rc4.dir/rc4.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c
 
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rc4.dir/rc4.c.i"
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c > CMakeFiles/rc4.dir/rc4.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c > CMakeFiles/rc4.dir/rc4.c.i
 
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rc4.dir/rc4.c.s"
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c -o CMakeFiles/rc4.dir/rc4.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4/rc4.c -o CMakeFiles/rc4.dir/rc4.c.s
 
 rc4: third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o
 rc4: third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make
@@ -81,10 +81,10 @@ third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build: rc4
 .PHONY : third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build
 
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && $(CMAKE_COMMAND) -P CMakeFiles/rc4.dir/cmake_clean.cmake
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 && $(CMAKE_COMMAND) -P CMakeFiles/rc4.dir/cmake_clean.cmake
 .PHONY : third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/clean
 
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4 /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/crypto/rc4 /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4 /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/depend
 

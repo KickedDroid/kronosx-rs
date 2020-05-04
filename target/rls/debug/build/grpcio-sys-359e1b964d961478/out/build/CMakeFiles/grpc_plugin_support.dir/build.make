@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/grpc_plugin_support.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/grpc_plugin_support.dir/flags.make
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/cpp_generator.cc.o: CMakeFiles/grpc_plugin_support.dir/flags.make
 CMakeFiles/grpc_plugin_support.dir/src/compiler/cpp_generator.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/cpp_generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/cpp_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/cpp_generator.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc_plugin_support.dir/src/compiler/cpp_generator.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/cpp_generator.cc
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/cpp_generator.cc.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/grpc_plugin_support.dir/src/compiler/cpp_generator.cc.s: cmake_force
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/csharp_generator.cc.o: CMakeFiles/grpc_plugin_support.dir/flags.make
 CMakeFiles/grpc_plugin_support.dir/src/compiler/csharp_generator.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/csharp_generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/csharp_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/csharp_generator.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc_plugin_support.dir/src/compiler/csharp_generator.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/csharp_generator.cc
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/csharp_generator.cc.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/grpc_plugin_support.dir/src/compiler/csharp_generator.cc.s: cmake_for
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/node_generator.cc.o: CMakeFiles/grpc_plugin_support.dir/flags.make
 CMakeFiles/grpc_plugin_support.dir/src/compiler/node_generator.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/node_generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/node_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/node_generator.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc_plugin_support.dir/src/compiler/node_generator.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/node_generator.cc
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/node_generator.cc.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/grpc_plugin_support.dir/src/compiler/node_generator.cc.s: cmake_force
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/objective_c_generator.cc.o: CMakeFiles/grpc_plugin_support.dir/flags.make
 CMakeFiles/grpc_plugin_support.dir/src/compiler/objective_c_generator.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/objective_c_generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/objective_c_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/objective_c_generator.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc_plugin_support.dir/src/compiler/objective_c_generator.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/objective_c_generator.cc
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/objective_c_generator.cc.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/grpc_plugin_support.dir/src/compiler/objective_c_generator.cc.s: cmak
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/php_generator.cc.o: CMakeFiles/grpc_plugin_support.dir/flags.make
 CMakeFiles/grpc_plugin_support.dir/src/compiler/php_generator.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/php_generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/php_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/php_generator.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc_plugin_support.dir/src/compiler/php_generator.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/php_generator.cc
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/php_generator.cc.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/grpc_plugin_support.dir/src/compiler/php_generator.cc.s: cmake_force
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/python_generator.cc.o: CMakeFiles/grpc_plugin_support.dir/flags.make
 CMakeFiles/grpc_plugin_support.dir/src/compiler/python_generator.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/python_generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/python_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/python_generator.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc_plugin_support.dir/src/compiler/python_generator.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/python_generator.cc
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/python_generator.cc.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/grpc_plugin_support.dir/src/compiler/python_generator.cc.s: cmake_for
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/ruby_generator.cc.o: CMakeFiles/grpc_plugin_support.dir/flags.make
 CMakeFiles/grpc_plugin_support.dir/src/compiler/ruby_generator.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/ruby_generator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/ruby_generator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/grpc_plugin_support.dir/src/compiler/ruby_generator.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc_plugin_support.dir/src/compiler/ruby_generator.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/compiler/ruby_generator.cc
 
 CMakeFiles/grpc_plugin_support.dir/src/compiler/ruby_generator.cc.i: cmake_force
@@ -170,7 +170,7 @@ libgrpc_plugin_support.a: CMakeFiles/grpc_plugin_support.dir/src/compiler/python
 libgrpc_plugin_support.a: CMakeFiles/grpc_plugin_support.dir/src/compiler/ruby_generator.cc.o
 libgrpc_plugin_support.a: CMakeFiles/grpc_plugin_support.dir/build.make
 libgrpc_plugin_support.a: CMakeFiles/grpc_plugin_support.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libgrpc_plugin_support.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libgrpc_plugin_support.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/grpc_plugin_support.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grpc_plugin_support.dir/link.txt --verbose=$(VERBOSE)
 
@@ -184,6 +184,6 @@ CMakeFiles/grpc_plugin_support.dir/clean:
 .PHONY : CMakeFiles/grpc_plugin_support.dir/clean
 
 CMakeFiles/grpc_plugin_support.dir/depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles/grpc_plugin_support.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles/grpc_plugin_support.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/grpc_plugin_support.dir/depend
 

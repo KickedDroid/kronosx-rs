@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gpr.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/gpr.dir/flags.make
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/alloc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/alloc.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/alloc.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/arena.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/arena.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/arena.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/atm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/atm.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/atm.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_iphone.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_iphone.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_iphone.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_linux.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_linux.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_linux.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/cpu_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.i: cmake_force
@@ -150,7 +150,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/cpu_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/env_linux.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/env_linux.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.i: cmake_force
@@ -163,7 +163,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/env_linux.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/env_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/env_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.i: cmake_force
@@ -176,7 +176,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/env_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/env_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/env_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.i: cmake_force
@@ -189,7 +189,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/env_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/host_port.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/host_port.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.i: cmake_force
@@ -202,7 +202,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/host_port.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.i: cmake_force
@@ -215,7 +215,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/log.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_android.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_android.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/log_android.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_linux.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_linux.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.i: cmake_force
@@ -241,7 +241,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/log_linux.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.i: cmake_force
@@ -254,7 +254,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/log_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/log_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/log_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/mpscq.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/mpscq.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.i: cmake_force
@@ -280,7 +280,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/mpscq.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/murmur_hash.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/murmur_hash.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.i: cmake_force
@@ -293,7 +293,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/murmur_hash.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.i: cmake_force
@@ -306,7 +306,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/string.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.i: cmake_force
@@ -319,7 +319,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/string_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string_util_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string_util_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.i: cmake_force
@@ -332,7 +332,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/string_util_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/string_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.i: cmake_force
@@ -345,7 +345,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/string_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/sync.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/sync.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.i: cmake_force
@@ -358,7 +358,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/sync.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/sync_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/sync_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.i: cmake_force
@@ -371,7 +371,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/sync_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/sync_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/sync_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.i: cmake_force
@@ -384,7 +384,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/sync_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.i: cmake_force
@@ -397,7 +397,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/time.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.i: cmake_force
@@ -410,7 +410,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/time_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time_precise.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time_precise.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.i: cmake_force
@@ -423,7 +423,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/time_precise.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/time_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.i: cmake_force
@@ -436,7 +436,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/time_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tls_pthread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tls_pthread.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.i: cmake_force
@@ -449,7 +449,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/tls_pthread.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tmpfile_msys.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tmpfile_msys.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.i: cmake_force
@@ -462,7 +462,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_msys.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tmpfile_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tmpfile_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.i: cmake_force
@@ -475,7 +475,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tmpfile_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/tmpfile_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.i: cmake_force
@@ -488,7 +488,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/tmpfile_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/wrap_memcpy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gpr/wrap_memcpy.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.i: cmake_force
@@ -501,7 +501,7 @@ CMakeFiles/gpr.dir/src/core/lib/gpr/wrap_memcpy.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gprpp/fork.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gprpp/fork.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.i: cmake_force
@@ -514,7 +514,7 @@ CMakeFiles/gpr.dir/src/core/lib/gprpp/fork.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gprpp/thd_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gprpp/thd_posix.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.i: cmake_force
@@ -527,7 +527,7 @@ CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_posix.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gprpp/thd_windows.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/gprpp/thd_windows.cc
 
 CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.i: cmake_force
@@ -540,7 +540,7 @@ CMakeFiles/gpr.dir/src/core/lib/gprpp/thd_windows.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/profiling/basic_timers.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/profiling/basic_timers.cc
 
 CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.i: cmake_force
@@ -553,7 +553,7 @@ CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.s: cmake_force
 
 CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o: CMakeFiles/gpr.dir/flags.make
 CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/profiling/stap_timers.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/lib/profiling/stap_timers.cc
 
 CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.i: cmake_force
@@ -650,7 +650,7 @@ libgpr.a: CMakeFiles/gpr.dir/src/core/lib/profiling/basic_timers.cc.o
 libgpr.a: CMakeFiles/gpr.dir/src/core/lib/profiling/stap_timers.cc.o
 libgpr.a: CMakeFiles/gpr.dir/build.make
 libgpr.a: CMakeFiles/gpr.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C static library libgpr.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C static library libgpr.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/gpr.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gpr.dir/link.txt --verbose=$(VERBOSE)
 
@@ -664,6 +664,6 @@ CMakeFiles/gpr.dir/clean:
 .PHONY : CMakeFiles/gpr.dir/clean
 
 CMakeFiles/gpr.dir/depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles/gpr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles/gpr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gpr.dir/depend
 

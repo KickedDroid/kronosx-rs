@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/ssl/span_test.cc" "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/span_test.cc.o"
-  "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/ssl/ssl_test.cc" "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/ssl_test.cc.o"
+  "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/ssl/span_test.cc" "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/span_test.cc.o"
+  "/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/boringssl/ssl/ssl_test.cc" "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/ssl_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -24,9 +24,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
-  "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
-  "/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/CMakeFiles/boringssl_gtest.dir/DependInfo.cmake"
+  "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
+  "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/CMakeFiles/boringssl_gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

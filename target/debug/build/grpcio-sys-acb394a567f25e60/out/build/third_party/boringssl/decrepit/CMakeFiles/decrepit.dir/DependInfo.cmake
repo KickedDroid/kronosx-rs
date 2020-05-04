@@ -5,8 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
-  "/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
+  "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/ssl/CMakeFiles/ssl.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

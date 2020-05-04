@@ -6,5 +6,5 @@ C_FLAGS =  -ffunction-sections -fdata-sections -fPIC -m64 -g -isysroot /Applicat
 
 C_DEFINES = -DPB_FIELD_16BIT -DZLIB_DLL
 
-C_INCLUDES = -I/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/zlib -I/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/zlib -I/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc 
+C_INCLUDES = -I/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/zlib -I/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/zlib -I/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc 
 

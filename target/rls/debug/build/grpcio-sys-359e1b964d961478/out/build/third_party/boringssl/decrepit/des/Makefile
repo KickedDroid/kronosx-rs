@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/decrepit/des/CMakeFiles/progress.marks
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/decrepit/des/CMakeFiles/progress.marks
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/clean
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/rule
 .PHONY : third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ des_decrepit: third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/rul
 
 # fast build rule for target.
 des_decrepit/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build
 .PHONY : des_decrepit/fast
 
 cfb64ede.o: cfb64ede.c.o
@@ -177,7 +177,7 @@ cfb64ede.o: cfb64ede.c.o
 
 # target to build an object file
 cfb64ede.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/cfb64ede.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/cfb64ede.c.o
 .PHONY : cfb64ede.c.o
 
 cfb64ede.i: cfb64ede.c.i
@@ -186,7 +186,7 @@ cfb64ede.i: cfb64ede.c.i
 
 # target to preprocess a source file
 cfb64ede.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/cfb64ede.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/cfb64ede.c.i
 .PHONY : cfb64ede.c.i
 
 cfb64ede.s: cfb64ede.c.s
@@ -195,7 +195,7 @@ cfb64ede.s: cfb64ede.c.s
 
 # target to generate assembly for a file
 cfb64ede.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/cfb64ede.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/cfb64ede.c.s
 .PHONY : cfb64ede.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

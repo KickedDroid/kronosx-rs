@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/rand_extra/CMakeFiles/progress.marks
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/rand_extra/CMakeFiles/progress.marks
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/clean
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rule
 .PHONY : third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ rand_extra: third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/ru
 
 # fast build rule for target.
 rand_extra/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build
 .PHONY : rand_extra/fast
 
 deterministic.o: deterministic.c.o
@@ -177,7 +177,7 @@ deterministic.o: deterministic.c.o
 
 # target to build an object file
 deterministic.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/deterministic.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/deterministic.c.o
 .PHONY : deterministic.c.o
 
 deterministic.i: deterministic.c.i
@@ -186,7 +186,7 @@ deterministic.i: deterministic.c.i
 
 # target to preprocess a source file
 deterministic.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/deterministic.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/deterministic.c.i
 .PHONY : deterministic.c.i
 
 deterministic.s: deterministic.c.s
@@ -195,7 +195,7 @@ deterministic.s: deterministic.c.s
 
 # target to generate assembly for a file
 deterministic.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/deterministic.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/deterministic.c.s
 .PHONY : deterministic.c.s
 
 forkunsafe.o: forkunsafe.c.o
@@ -204,7 +204,7 @@ forkunsafe.o: forkunsafe.c.o
 
 # target to build an object file
 forkunsafe.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/forkunsafe.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/forkunsafe.c.o
 .PHONY : forkunsafe.c.o
 
 forkunsafe.i: forkunsafe.c.i
@@ -213,7 +213,7 @@ forkunsafe.i: forkunsafe.c.i
 
 # target to preprocess a source file
 forkunsafe.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/forkunsafe.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/forkunsafe.c.i
 .PHONY : forkunsafe.c.i
 
 forkunsafe.s: forkunsafe.c.s
@@ -222,7 +222,7 @@ forkunsafe.s: forkunsafe.c.s
 
 # target to generate assembly for a file
 forkunsafe.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/forkunsafe.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/forkunsafe.c.s
 .PHONY : forkunsafe.c.s
 
 fuchsia.o: fuchsia.c.o
@@ -231,7 +231,7 @@ fuchsia.o: fuchsia.c.o
 
 # target to build an object file
 fuchsia.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/fuchsia.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/fuchsia.c.o
 .PHONY : fuchsia.c.o
 
 fuchsia.i: fuchsia.c.i
@@ -240,7 +240,7 @@ fuchsia.i: fuchsia.c.i
 
 # target to preprocess a source file
 fuchsia.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/fuchsia.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/fuchsia.c.i
 .PHONY : fuchsia.c.i
 
 fuchsia.s: fuchsia.c.s
@@ -249,7 +249,7 @@ fuchsia.s: fuchsia.c.s
 
 # target to generate assembly for a file
 fuchsia.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/fuchsia.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/fuchsia.c.s
 .PHONY : fuchsia.c.s
 
 rand_extra.o: rand_extra.c.o
@@ -258,7 +258,7 @@ rand_extra.o: rand_extra.c.o
 
 # target to build an object file
 rand_extra.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rand_extra.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rand_extra.c.o
 .PHONY : rand_extra.c.o
 
 rand_extra.i: rand_extra.c.i
@@ -267,7 +267,7 @@ rand_extra.i: rand_extra.c.i
 
 # target to preprocess a source file
 rand_extra.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rand_extra.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rand_extra.c.i
 .PHONY : rand_extra.c.i
 
 rand_extra.s: rand_extra.c.s
@@ -276,7 +276,7 @@ rand_extra.s: rand_extra.c.s
 
 # target to generate assembly for a file
 rand_extra.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rand_extra.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rand_extra.c.s
 .PHONY : rand_extra.c.s
 
 windows.o: windows.c.o
@@ -285,7 +285,7 @@ windows.o: windows.c.o
 
 # target to build an object file
 windows.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/windows.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/windows.c.o
 .PHONY : windows.c.o
 
 windows.i: windows.c.i
@@ -294,7 +294,7 @@ windows.i: windows.c.i
 
 # target to preprocess a source file
 windows.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/windows.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/windows.c.i
 .PHONY : windows.c.i
 
 windows.s: windows.c.s
@@ -303,7 +303,7 @@ windows.s: windows.c.s
 
 # target to generate assembly for a file
 windows.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/windows.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/windows.c.s
 .PHONY : windows.c.s
 
 # Help Target
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

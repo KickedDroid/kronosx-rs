@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4/CMakeFiles/progress.marks
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/rc4/CMakeFiles/progress.marks
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/clean
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 .PHONY : third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ rc4: third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 
 # fast build rule for target.
 rc4/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build
 .PHONY : rc4/fast
 
 rc4.o: rc4.c.o
@@ -177,7 +177,7 @@ rc4.o: rc4.c.o
 
 # target to build an object file
 rc4.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.o
 .PHONY : rc4.c.o
 
 rc4.i: rc4.c.i
@@ -186,7 +186,7 @@ rc4.i: rc4.c.i
 
 # target to preprocess a source file
 rc4.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.i
 .PHONY : rc4.c.i
 
 rc4.s: rc4.c.s
@@ -195,7 +195,7 @@ rc4.s: rc4.c.s
 
 # target to generate assembly for a file
 rc4.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rc4.c.s
 .PHONY : rc4.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

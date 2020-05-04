@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/address_sorting.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/address_sorting.dir/flags.make
 
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.o: CMakeFiles/address_sorting.dir/flags.make
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/address_sorting/address_sorting.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/address_sorting/address_sorting.c
 
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting.c.s: 
 
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.o: CMakeFiles/address_sorting.dir/flags.make
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/address_sorting/address_sorting_posix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/address_sorting/address_sorting_posix.c
 
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix.c.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_posix
 
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o: CMakeFiles/address_sorting.dir/flags.make
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/address_sorting/address_sorting_windows.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/address_sorting/address_sorting_windows.c
 
 CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.i: cmake_force
@@ -110,7 +110,7 @@ libaddress_sorting.a: CMakeFiles/address_sorting.dir/third_party/address_sorting
 libaddress_sorting.a: CMakeFiles/address_sorting.dir/third_party/address_sorting/address_sorting_windows.c.o
 libaddress_sorting.a: CMakeFiles/address_sorting.dir/build.make
 libaddress_sorting.a: CMakeFiles/address_sorting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libaddress_sorting.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libaddress_sorting.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/address_sorting.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/address_sorting.dir/link.txt --verbose=$(VERBOSE)
 
@@ -124,6 +124,6 @@ CMakeFiles/address_sorting.dir/clean:
 .PHONY : CMakeFiles/address_sorting.dir/clean
 
 CMakeFiles/address_sorting.dir/depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles/address_sorting.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles/address_sorting.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/address_sorting.dir/depend
 

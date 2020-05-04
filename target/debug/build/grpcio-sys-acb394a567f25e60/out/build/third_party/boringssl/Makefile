@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/CMakeFiles/progress.marks
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/CMakeFiles/progress.marks
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/clean
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/boringssl/CMakeFiles/run_tests.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/run_tests.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/run_tests.dir/rule
 .PHONY : third_party/boringssl/CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ run_tests: third_party/boringssl/CMakeFiles/run_tests.dir/rule
 
 # fast build rule for target.
 run_tests/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/run_tests.dir/build.make third_party/boringssl/CMakeFiles/run_tests.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/run_tests.dir/build.make third_party/boringssl/CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
 
 # Convenience name for target.
 third_party/boringssl/CMakeFiles/all_tests.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/all_tests.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/all_tests.dir/rule
 .PHONY : third_party/boringssl/CMakeFiles/all_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ all_tests: third_party/boringssl/CMakeFiles/all_tests.dir/rule
 
 # fast build rule for target.
 all_tests/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/all_tests.dir/build.make third_party/boringssl/CMakeFiles/all_tests.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/all_tests.dir/build.make third_party/boringssl/CMakeFiles/all_tests.dir/build
 .PHONY : all_tests/fast
 
 # Convenience name for target.
 third_party/boringssl/CMakeFiles/crypto_test_data.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/crypto_test_data.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/crypto_test_data.dir/rule
 .PHONY : third_party/boringssl/CMakeFiles/crypto_test_data.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ crypto_test_data: third_party/boringssl/CMakeFiles/crypto_test_data.dir/rule
 
 # fast build rule for target.
 crypto_test_data/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/build
 .PHONY : crypto_test_data/fast
 
 # Convenience name for target.
 third_party/boringssl/CMakeFiles/boringssl_gtest.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/boringssl_gtest.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/boringssl_gtest.dir/rule
 .PHONY : third_party/boringssl/CMakeFiles/boringssl_gtest.dir/rule
 
 # Convenience name for target.
@@ -213,7 +213,7 @@ boringssl_gtest: third_party/boringssl/CMakeFiles/boringssl_gtest.dir/rule
 
 # fast build rule for target.
 boringssl_gtest/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build
 .PHONY : boringssl_gtest/fast
 
 crypto_test_data.o: crypto_test_data.cc.o
@@ -222,7 +222,7 @@ crypto_test_data.o: crypto_test_data.cc.o
 
 # target to build an object file
 crypto_test_data.cc.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/crypto_test_data.cc.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/crypto_test_data.cc.o
 .PHONY : crypto_test_data.cc.o
 
 crypto_test_data.i: crypto_test_data.cc.i
@@ -231,7 +231,7 @@ crypto_test_data.i: crypto_test_data.cc.i
 
 # target to preprocess a source file
 crypto_test_data.cc.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/crypto_test_data.cc.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/crypto_test_data.cc.i
 .PHONY : crypto_test_data.cc.i
 
 crypto_test_data.s: crypto_test_data.cc.s
@@ -240,7 +240,7 @@ crypto_test_data.s: crypto_test_data.cc.s
 
 # target to generate assembly for a file
 crypto_test_data.cc.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/crypto_test_data.cc.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/crypto_test_data.cc.s
 .PHONY : crypto_test_data.cc.s
 
 third_party/googletest/src/gtest-all.o: third_party/googletest/src/gtest-all.cc.o
@@ -249,7 +249,7 @@ third_party/googletest/src/gtest-all.o: third_party/googletest/src/gtest-all.cc.
 
 # target to build an object file
 third_party/googletest/src/gtest-all.cc.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/third_party/googletest/src/gtest-all.cc.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/third_party/googletest/src/gtest-all.cc.o
 .PHONY : third_party/googletest/src/gtest-all.cc.o
 
 third_party/googletest/src/gtest-all.i: third_party/googletest/src/gtest-all.cc.i
@@ -258,7 +258,7 @@ third_party/googletest/src/gtest-all.i: third_party/googletest/src/gtest-all.cc.
 
 # target to preprocess a source file
 third_party/googletest/src/gtest-all.cc.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/third_party/googletest/src/gtest-all.cc.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/third_party/googletest/src/gtest-all.cc.i
 .PHONY : third_party/googletest/src/gtest-all.cc.i
 
 third_party/googletest/src/gtest-all.s: third_party/googletest/src/gtest-all.cc.s
@@ -267,7 +267,7 @@ third_party/googletest/src/gtest-all.s: third_party/googletest/src/gtest-all.cc.
 
 # target to generate assembly for a file
 third_party/googletest/src/gtest-all.cc.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/third_party/googletest/src/gtest-all.cc.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/third_party/googletest/src/gtest-all.cc.s
 .PHONY : third_party/googletest/src/gtest-all.cc.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

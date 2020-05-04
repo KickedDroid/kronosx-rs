@@ -1,0 +1,12 @@
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/deps/libipld-4f01b505760b3ebe.rmeta: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/lib.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/block.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/dag.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/gc.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/path.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/store.rs
+
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/deps/liblibipld-4f01b505760b3ebe.rlib: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/lib.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/block.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/dag.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/gc.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/path.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/store.rs
+
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/deps/libipld-4f01b505760b3ebe.d: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/lib.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/block.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/dag.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/gc.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/path.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/store.rs
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/lib.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/block.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/dag.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/gc.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/path.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/libipld-0.1.0/src/store.rs:

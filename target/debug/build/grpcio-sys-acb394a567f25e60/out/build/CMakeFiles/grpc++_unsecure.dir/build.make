@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/grpc++_unsecure.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/grpc++_unsecure.dir/flags.make
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/insecure_credentials.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/insecure_credentials.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/insecure_credentials.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/insecure_credentials.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/insecure_credentials.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/insecure_credentials.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/insecure_credentials.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/insecure_credentials.cc.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/insecure_credentials.cc.s: cmake_f
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/insecure_create_auth_context.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/insecure_create_auth_context.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/insecure_create_auth_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/insecure_create_auth_context.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/insecure_create_auth_context.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/insecure_create_auth_context.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/insecure_create_auth_context.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/insecure_create_auth_context.cc.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/insecure_create_auth_context.cc.s:
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/insecure_server_credentials.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/insecure_server_credentials.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/insecure_server_credentials.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/insecure_server_credentials.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/insecure_server_credentials.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/insecure_server_credentials.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/insecure_server_credentials.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/insecure_server_credentials.cc.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/insecure_server_credentials.cc.s: 
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/channel_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/channel_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/channel_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/channel_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/channel_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/channel_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/channel_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/channel_cc.cc.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/channel_cc.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_context.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_context.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/client_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_context.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_context.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_context.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/client_context.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_context.cc.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_context.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_interceptor.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_interceptor.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/client_interceptor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_interceptor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_interceptor.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_interceptor.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/client_interceptor.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_interceptor.cc.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/client_interceptor.cc.s: cmake_for
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/create_channel.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/create_channel.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel.cc.i: cmake_force
@@ -150,7 +150,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_internal.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_internal.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/create_channel_internal.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_internal.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_internal.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_internal.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/create_channel_internal.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_internal.cc.i: cmake_force
@@ -163,7 +163,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_internal.cc.s: cmak
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_posix.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/create_channel_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/create_channel_posix.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_posix.cc.i: cmake_force
@@ -176,7 +176,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/create_channel_posix.cc.s: cmake_f
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/credentials_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/credentials_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/credentials_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/credentials_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/credentials_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/credentials_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/credentials_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/credentials_cc.cc.i: cmake_force
@@ -189,7 +189,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/credentials_cc.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/generic_stub.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/generic_stub.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/generic_stub.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/generic_stub.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/client/generic_stub.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/client/generic_stub.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/client/generic_stub.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/client/generic_stub.cc.i: cmake_force
@@ -202,7 +202,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/client/generic_stub.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/alarm.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/alarm.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/alarm.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/alarm.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/alarm.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/alarm.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/alarm.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/alarm.cc.i: cmake_force
@@ -215,7 +215,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/alarm.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_arguments.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_arguments.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/channel_arguments.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_arguments.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_arguments.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_arguments.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/channel_arguments.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_arguments.cc.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_arguments.cc.s: cmake_forc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_filter.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_filter.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/channel_filter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_filter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_filter.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_filter.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/channel_filter.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_filter.cc.i: cmake_force
@@ -241,7 +241,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/channel_filter.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/completion_queue_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/completion_queue_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/completion_queue_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/completion_queue_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/completion_queue_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/completion_queue_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/completion_queue_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/completion_queue_cc.cc.i: cmake_force
@@ -254,7 +254,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/completion_queue_cc.cc.s: cmake_fo
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/core_codegen.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/core_codegen.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/core_codegen.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/core_codegen.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/core_codegen.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/core_codegen.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/core_codegen.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/core_codegen.cc.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/core_codegen.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/resource_quota_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/resource_quota_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/resource_quota_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/resource_quota_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/resource_quota_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/resource_quota_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/resource_quota_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/resource_quota_cc.cc.i: cmake_force
@@ -280,7 +280,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/resource_quota_cc.cc.s: cmake_forc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/rpc_method.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/rpc_method.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/rpc_method.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/rpc_method.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/rpc_method.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/rpc_method.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/rpc_method.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/rpc_method.cc.i: cmake_force
@@ -293,7 +293,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/rpc_method.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/version_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/version_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/version_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/version_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/common/version_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/common/version_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/common/version_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/common/version_cc.cc.i: cmake_force
@@ -306,7 +306,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/common/version_cc.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/async_generic_service.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/async_generic_service.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/async_generic_service.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/async_generic_service.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/async_generic_service.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/async_generic_service.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/async_generic_service.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/async_generic_service.cc.i: cmake_force
@@ -319,7 +319,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/async_generic_service.cc.s: cmake_
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/channel_argument_option.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/channel_argument_option.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/channel_argument_option.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/channel_argument_option.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/channel_argument_option.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/channel_argument_option.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/channel_argument_option.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/channel_argument_option.cc.i: cmake_force
@@ -332,7 +332,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/channel_argument_option.cc.s: cmak
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/create_default_thread_pool.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/create_default_thread_pool.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/create_default_thread_pool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/create_default_thread_pool.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/create_default_thread_pool.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/create_default_thread_pool.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/create_default_thread_pool.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/create_default_thread_pool.cc.i: cmake_force
@@ -345,7 +345,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/create_default_thread_pool.cc.s: c
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/dynamic_thread_pool.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/dynamic_thread_pool.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/dynamic_thread_pool.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/dynamic_thread_pool.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/dynamic_thread_pool.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/dynamic_thread_pool.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/dynamic_thread_pool.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/dynamic_thread_pool.cc.i: cmake_force
@@ -358,7 +358,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/dynamic_thread_pool.cc.s: cmake_fo
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/default_health_check_service.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/default_health_check_service.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/health/default_health_check_service.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/default_health_check_service.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/default_health_check_service.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/default_health_check_service.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/health/default_health_check_service.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/default_health_check_service.cc.i: cmake_force
@@ -371,7 +371,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/default_health_check_servic
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/health/health_check_service.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/health/health_check_service.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service.cc.i: cmake_force
@@ -384,7 +384,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service.cc.s: 
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service_server_builder_option.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service_server_builder_option.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/health/health_check_service_server_builder_option.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service_server_builder_option.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service_server_builder_option.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service_server_builder_option.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/health/health_check_service_server_builder_option.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service_server_builder_option.cc.i: cmake_force
@@ -397,7 +397,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/health/health_check_service_server
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_builder.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_builder.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_builder.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_builder.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_builder.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_builder.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_builder.cc.i: cmake_force
@@ -410,7 +410,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_builder.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_cc.cc.i: cmake_force
@@ -423,7 +423,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_cc.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_context.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_context.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_context.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_context.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_context.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_context.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_context.cc.i: cmake_force
@@ -436,7 +436,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_context.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_credentials.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_credentials.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_credentials.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_credentials.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_credentials.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_credentials.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_credentials.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_credentials.cc.i: cmake_force
@@ -449,7 +449,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_credentials.cc.s: cmake_for
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_posix.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_posix.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_posix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_posix.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_posix.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_posix.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/server/server_posix.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_posix.cc.i: cmake_force
@@ -462,7 +462,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/server/server_posix.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/thread_manager/thread_manager.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/thread_manager/thread_manager.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/thread_manager/thread_manager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/thread_manager/thread_manager.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/thread_manager/thread_manager.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/thread_manager/thread_manager.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/thread_manager/thread_manager.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/thread_manager/thread_manager.cc.i: cmake_force
@@ -475,7 +475,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/thread_manager/thread_manager.cc.s: cmake
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/byte_buffer_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/byte_buffer_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/byte_buffer_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/byte_buffer_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/byte_buffer_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/util/byte_buffer_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/byte_buffer_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/byte_buffer_cc.cc.i: cmake_force
@@ -488,7 +488,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/util/byte_buffer_cc.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/status.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/status.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/status.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/status.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/status.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/util/status.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/status.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/status.cc.i: cmake_force
@@ -501,7 +501,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/util/status.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/string_ref.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/string_ref.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/string_ref.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/string_ref.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/string_ref.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/util/string_ref.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/string_ref.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/string_ref.cc.i: cmake_force
@@ -514,7 +514,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/util/string_ref.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/time_cc.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/time_cc.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/time_cc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/time_cc.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/util/time_cc.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/util/time_cc.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/util/time_cc.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/util/time_cc.cc.i: cmake_force
@@ -527,7 +527,7 @@ CMakeFiles/grpc++_unsecure.dir/src/cpp/util/time_cc.cc.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/core/ext/filters/client_channel/health/health.pb.c.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/core/ext/filters/client_channel/health/health.pb.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/ext/filters/client_channel/health/health.pb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/grpc++_unsecure.dir/src/core/ext/filters/client_channel/health/health.pb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/grpc++_unsecure.dir/src/core/ext/filters/client_channel/health/health.pb.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/core/ext/filters/client_channel/health/health.pb.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/core/ext/filters/client_channel/health/health.pb.c
 
 CMakeFiles/grpc++_unsecure.dir/src/core/ext/filters/client_channel/health/health.pb.c.i: cmake_force
@@ -540,7 +540,7 @@ CMakeFiles/grpc++_unsecure.dir/src/core/ext/filters/client_channel/health/health
 
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_common.c.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_common.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/nanopb/pb_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_common.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_common.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/nanopb/pb_common.c
 
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_common.c.i: cmake_force
@@ -553,7 +553,7 @@ CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_common.c.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_decode.c.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_decode.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/nanopb/pb_decode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_decode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_decode.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_decode.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/nanopb/pb_decode.c
 
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_decode.c.i: cmake_force
@@ -566,7 +566,7 @@ CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_decode.c.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encode.c.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encode.c.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/nanopb/pb_encode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encode.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encode.c.o   -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/third_party/nanopb/pb_encode.c
 
 CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encode.c.i: cmake_force
@@ -579,7 +579,7 @@ CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encode.c.s: cmake_force
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/codegen/codegen_init.cc.o: CMakeFiles/grpc++_unsecure.dir/flags.make
 CMakeFiles/grpc++_unsecure.dir/src/cpp/codegen/codegen_init.cc.o: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/codegen/codegen_init.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/codegen/codegen_init.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/grpc++_unsecure.dir/src/cpp/codegen/codegen_init.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grpc++_unsecure.dir/src/cpp/codegen/codegen_init.cc.o -c /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc/src/cpp/codegen/codegen_init.cc
 
 CMakeFiles/grpc++_unsecure.dir/src/cpp/codegen/codegen_init.cc.i: cmake_force
@@ -680,7 +680,7 @@ libgrpc++_unsecure.a: CMakeFiles/grpc++_unsecure.dir/third_party/nanopb/pb_encod
 libgrpc++_unsecure.a: CMakeFiles/grpc++_unsecure.dir/src/cpp/codegen/codegen_init.cc.o
 libgrpc++_unsecure.a: CMakeFiles/grpc++_unsecure.dir/build.make
 libgrpc++_unsecure.a: CMakeFiles/grpc++_unsecure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX static library libgrpc++_unsecure.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX static library libgrpc++_unsecure.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/grpc++_unsecure.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grpc++_unsecure.dir/link.txt --verbose=$(VERBOSE)
 
@@ -694,6 +694,6 @@ CMakeFiles/grpc++_unsecure.dir/clean:
 .PHONY : CMakeFiles/grpc++_unsecure.dir/clean
 
 CMakeFiles/grpc++_unsecure.dir/depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles/grpc++_unsecure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles/grpc++_unsecure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/grpc++_unsecure.dir/depend
 

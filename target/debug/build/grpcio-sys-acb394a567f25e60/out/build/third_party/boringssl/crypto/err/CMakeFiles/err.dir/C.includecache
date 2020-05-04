@@ -112,7 +112,7 @@ openssl/base.h
 openssl/base.h
 -
 
-/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/err/err_data.c
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/third_party/boringssl/crypto/err/err_data.c
 openssl/base.h
 -
 openssl/err.h

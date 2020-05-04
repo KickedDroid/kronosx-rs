@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/poly1305/CMakeFiles/progress.marks
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/third_party/boringssl/crypto/poly1305/CMakeFiles/progress.marks
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/clean
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/preinstall
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule
 .PHONY : third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ poly1305: third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule
 
 # fast build rule for target.
 poly1305/fast:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build
 .PHONY : poly1305/fast
 
 poly1305.o: poly1305.c.o
@@ -177,7 +177,7 @@ poly1305.o: poly1305.c.o
 
 # target to build an object file
 poly1305.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.o
 .PHONY : poly1305.c.o
 
 poly1305.i: poly1305.c.i
@@ -186,7 +186,7 @@ poly1305.i: poly1305.c.i
 
 # target to preprocess a source file
 poly1305.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.i
 .PHONY : poly1305.c.i
 
 poly1305.s: poly1305.c.s
@@ -195,7 +195,7 @@ poly1305.s: poly1305.c.s
 
 # target to generate assembly for a file
 poly1305.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305.c.s
 .PHONY : poly1305.c.s
 
 poly1305_arm.o: poly1305_arm.c.o
@@ -204,7 +204,7 @@ poly1305_arm.o: poly1305_arm.c.o
 
 # target to build an object file
 poly1305_arm.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.o
 .PHONY : poly1305_arm.c.o
 
 poly1305_arm.i: poly1305_arm.c.i
@@ -213,7 +213,7 @@ poly1305_arm.i: poly1305_arm.c.i
 
 # target to preprocess a source file
 poly1305_arm.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.i
 .PHONY : poly1305_arm.c.i
 
 poly1305_arm.s: poly1305_arm.c.s
@@ -222,7 +222,7 @@ poly1305_arm.s: poly1305_arm.c.s
 
 # target to generate assembly for a file
 poly1305_arm.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_arm.c.s
 .PHONY : poly1305_arm.c.s
 
 poly1305_vec.o: poly1305_vec.c.o
@@ -231,7 +231,7 @@ poly1305_vec.o: poly1305_vec.c.o
 
 # target to build an object file
 poly1305_vec.c.o:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.o
 .PHONY : poly1305_vec.c.o
 
 poly1305_vec.i: poly1305_vec.c.i
@@ -240,7 +240,7 @@ poly1305_vec.i: poly1305_vec.c.i
 
 # target to preprocess a source file
 poly1305_vec.c.i:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.i
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.i
 .PHONY : poly1305_vec.c.i
 
 poly1305_vec.s: poly1305_vec.c.s
@@ -249,7 +249,7 @@ poly1305_vec.s: poly1305_vec.c.s
 
 # target to generate assembly for a file
 poly1305_vec.c.s:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.s
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/poly1305_vec.c.s
 .PHONY : poly1305_vec.c.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/build/grpcio-sys-359e1b964d961478/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

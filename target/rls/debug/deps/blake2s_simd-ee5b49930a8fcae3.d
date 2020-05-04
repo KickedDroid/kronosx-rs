@@ -1,0 +1,11 @@
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/deps/blake2s_simd-ee5b49930a8fcae3.rmeta: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/lib.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/avx2.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/portable.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/sse41.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/blake2sp.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/guts.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/many.rs
+
+/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/rls/debug/deps/blake2s_simd-ee5b49930a8fcae3.d: /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/lib.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/avx2.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/portable.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/sse41.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/blake2sp.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/guts.rs /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/many.rs
+
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/lib.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/avx2.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/portable.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/sse41.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/blake2sp.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/guts.rs:
+/Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/blake2s_simd-0.5.10/src/many.rs:

@@ -47,7 +47,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/aidanm/.cargo/registry/src/github.com-1ecc6299db9ec823/grpcio-sys-0.4.7/grpc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
+CMAKE_BINARY_DIR = /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -1408,23 +1408,23 @@ third_party/zlib/clean: third_party/zlib/CMakeFiles/zlib.dir/clean
 # Target rules for target CMakeFiles/check_epollexclusive.dir
 
 # All Build rule for target.
-CMakeFiles/check_epollexclusive.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/check_epollexclusive.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/check_epollexclusive.dir/all: CMakeFiles/grpc.dir/all
 CMakeFiles/check_epollexclusive.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/check_epollexclusive.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/check_epollexclusive.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/check_epollexclusive.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/check_epollexclusive.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/check_epollexclusive.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/check_epollexclusive.dir/build.make CMakeFiles/check_epollexclusive.dir/depend
 	$(MAKE) -f CMakeFiles/check_epollexclusive.dir/build.make CMakeFiles/check_epollexclusive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target check_epollexclusive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target check_epollexclusive"
 .PHONY : CMakeFiles/check_epollexclusive.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/check_epollexclusive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/check_epollexclusive.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/check_epollexclusive.dir/rule
 
 # Convenience name for target.
@@ -1441,23 +1441,23 @@ CMakeFiles/check_epollexclusive.dir/clean:
 # Target rules for target CMakeFiles/gen_hpack_tables.dir
 
 # All Build rule for target.
-CMakeFiles/gen_hpack_tables.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/gen_hpack_tables.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/gen_hpack_tables.dir/all: CMakeFiles/grpc.dir/all
 CMakeFiles/gen_hpack_tables.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/gen_hpack_tables.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/gen_hpack_tables.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/gen_hpack_tables.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/gen_hpack_tables.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/gen_hpack_tables.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/gen_hpack_tables.dir/build.make CMakeFiles/gen_hpack_tables.dir/depend
 	$(MAKE) -f CMakeFiles/gen_hpack_tables.dir/build.make CMakeFiles/gen_hpack_tables.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target gen_hpack_tables"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target gen_hpack_tables"
 .PHONY : CMakeFiles/gen_hpack_tables.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gen_hpack_tables.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gen_hpack_tables.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/gen_hpack_tables.dir/rule
 
 # Convenience name for target.
@@ -1474,23 +1474,23 @@ CMakeFiles/gen_hpack_tables.dir/clean:
 # Target rules for target CMakeFiles/grpc_verify_jwt.dir
 
 # All Build rule for target.
-CMakeFiles/grpc_verify_jwt.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/grpc_verify_jwt.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_verify_jwt.dir/all: CMakeFiles/grpc.dir/all
 CMakeFiles/grpc_verify_jwt.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc_verify_jwt.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc_verify_jwt.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc_verify_jwt.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/grpc_verify_jwt.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_verify_jwt.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/grpc_verify_jwt.dir/build.make CMakeFiles/grpc_verify_jwt.dir/depend
 	$(MAKE) -f CMakeFiles/grpc_verify_jwt.dir/build.make CMakeFiles/grpc_verify_jwt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_verify_jwt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_verify_jwt"
 .PHONY : CMakeFiles/grpc_verify_jwt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc_verify_jwt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc_verify_jwt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc_verify_jwt.dir/rule
 
 # Convenience name for target.
@@ -1510,14 +1510,14 @@ CMakeFiles/grpc_verify_jwt.dir/clean:
 CMakeFiles/gen_percent_encoding_tables.dir/all:
 	$(MAKE) -f CMakeFiles/gen_percent_encoding_tables.dir/build.make CMakeFiles/gen_percent_encoding_tables.dir/depend
 	$(MAKE) -f CMakeFiles/gen_percent_encoding_tables.dir/build.make CMakeFiles/gen_percent_encoding_tables.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target gen_percent_encoding_tables"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target gen_percent_encoding_tables"
 .PHONY : CMakeFiles/gen_percent_encoding_tables.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gen_percent_encoding_tables.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gen_percent_encoding_tables.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/gen_percent_encoding_tables.dir/rule
 
 # Convenience name for target.
@@ -1534,21 +1534,21 @@ CMakeFiles/gen_percent_encoding_tables.dir/clean:
 # Target rules for target CMakeFiles/grpc++_unsecure.dir
 
 # All Build rule for target.
-CMakeFiles/grpc++_unsecure.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
 CMakeFiles/grpc++_unsecure.dir/all: CMakeFiles/grpc_unsecure.dir/all
 CMakeFiles/grpc++_unsecure.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc++_unsecure.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc++_unsecure.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc++_unsecure.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
 	$(MAKE) -f CMakeFiles/grpc++_unsecure.dir/build.make CMakeFiles/grpc++_unsecure.dir/depend
 	$(MAKE) -f CMakeFiles/grpc++_unsecure.dir/build.make CMakeFiles/grpc++_unsecure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=56,57 "Built target grpc++_unsecure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=56,57 "Built target grpc++_unsecure"
 .PHONY : CMakeFiles/grpc++_unsecure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc++_unsecure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc++_unsecure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc++_unsecure.dir/rule
 
 # Convenience name for target.
@@ -1565,23 +1565,23 @@ CMakeFiles/grpc++_unsecure.dir/clean:
 # Target rules for target CMakeFiles/grpc_create_jwt.dir
 
 # All Build rule for target.
-CMakeFiles/grpc_create_jwt.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/grpc_create_jwt.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_create_jwt.dir/all: CMakeFiles/grpc.dir/all
 CMakeFiles/grpc_create_jwt.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc_create_jwt.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc_create_jwt.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc_create_jwt.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/grpc_create_jwt.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_create_jwt.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/grpc_create_jwt.dir/build.make CMakeFiles/grpc_create_jwt.dir/depend
 	$(MAKE) -f CMakeFiles/grpc_create_jwt.dir/build.make CMakeFiles/grpc_create_jwt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_create_jwt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_create_jwt"
 .PHONY : CMakeFiles/grpc_create_jwt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc_create_jwt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc_create_jwt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc_create_jwt.dir/rule
 
 # Convenience name for target.
@@ -1599,23 +1599,23 @@ CMakeFiles/grpc_create_jwt.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/grpc++_cronet.dir/all: CMakeFiles/grpc_cronet.dir/all
-CMakeFiles/grpc++_cronet.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/grpc++_cronet.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc++_cronet.dir/all: CMakeFiles/grpc.dir/all
 CMakeFiles/grpc++_cronet.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc++_cronet.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc++_cronet.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc++_cronet.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/grpc++_cronet.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc++_cronet.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/grpc++_cronet.dir/build.make CMakeFiles/grpc++_cronet.dir/depend
 	$(MAKE) -f CMakeFiles/grpc++_cronet.dir/build.make CMakeFiles/grpc++_cronet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55 "Built target grpc++_cronet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55 "Built target grpc++_cronet"
 .PHONY : CMakeFiles/grpc++_cronet.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc++_cronet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 76
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 76
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc++_cronet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc++_cronet.dir/rule
 
 # Convenience name for target.
@@ -1632,23 +1632,23 @@ CMakeFiles/grpc++_cronet.dir/clean:
 # Target rules for target CMakeFiles/grpc++.dir
 
 # All Build rule for target.
-CMakeFiles/grpc++.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/grpc++.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc++.dir/all: CMakeFiles/grpc.dir/all
 CMakeFiles/grpc++.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc++.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc++.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc++.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/grpc++.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc++.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/grpc++.dir/build.make CMakeFiles/grpc++.dir/depend
 	$(MAKE) -f CMakeFiles/grpc++.dir/build.make CMakeFiles/grpc++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=39,40 "Built target grpc++"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=39,40 "Built target grpc++"
 .PHONY : CMakeFiles/grpc++.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc++.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 46
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc++.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc++.dir/rule
 
 # Convenience name for target.
@@ -1665,20 +1665,20 @@ CMakeFiles/grpc++.dir/clean:
 # Target rules for target CMakeFiles/grpc_unsecure.dir
 
 # All Build rule for target.
-CMakeFiles/grpc_unsecure.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
 CMakeFiles/grpc_unsecure.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc_unsecure.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc_unsecure.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc_unsecure.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
 	$(MAKE) -f CMakeFiles/grpc_unsecure.dir/build.make CMakeFiles/grpc_unsecure.dir/depend
 	$(MAKE) -f CMakeFiles/grpc_unsecure.dir/build.make CMakeFiles/grpc_unsecure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=75,76,77,78,79,80,81,82,83,84,85,86,87,88 "Built target grpc_unsecure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=75,76,77,78,79,80,81,82,83,84,85,86,87,88 "Built target grpc_unsecure"
 .PHONY : CMakeFiles/grpc_unsecure.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc_unsecure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc_unsecure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc_unsecure.dir/rule
 
 # Convenience name for target.
@@ -1695,22 +1695,22 @@ CMakeFiles/grpc_unsecure.dir/clean:
 # Target rules for target CMakeFiles/grpc_cronet.dir
 
 # All Build rule for target.
-CMakeFiles/grpc_cronet.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/grpc_cronet.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_cronet.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc_cronet.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc_cronet.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc_cronet.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/grpc_cronet.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_cronet.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/grpc_cronet.dir/build.make CMakeFiles/grpc_cronet.dir/depend
 	$(MAKE) -f CMakeFiles/grpc_cronet.dir/build.make CMakeFiles/grpc_cronet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74 "Built target grpc_cronet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74 "Built target grpc_cronet"
 .PHONY : CMakeFiles/grpc_cronet.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc_cronet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 43
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc_cronet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc_cronet.dir/rule
 
 # Convenience name for target.
@@ -1730,14 +1730,14 @@ CMakeFiles/grpc_cronet.dir/clean:
 CMakeFiles/tools_cxx.dir/all:
 	$(MAKE) -f CMakeFiles/tools_cxx.dir/build.make CMakeFiles/tools_cxx.dir/depend
 	$(MAKE) -f CMakeFiles/tools_cxx.dir/build.make CMakeFiles/tools_cxx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target tools_cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target tools_cxx"
 .PHONY : CMakeFiles/tools_cxx.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tools_cxx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tools_cxx.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/tools_cxx.dir/rule
 
 # Convenience name for target.
@@ -1754,22 +1754,22 @@ CMakeFiles/tools_cxx.dir/clean:
 # Target rules for target CMakeFiles/grpc.dir
 
 # All Build rule for target.
-CMakeFiles/grpc.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/grpc.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/grpc.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/grpc.dir/build.make CMakeFiles/grpc.dir/depend
 	$(MAKE) -f CMakeFiles/grpc.dir/build.make CMakeFiles/grpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target grpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target grpc"
 .PHONY : CMakeFiles/grpc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc.dir/rule
 
 # Convenience name for target.
@@ -1786,23 +1786,23 @@ CMakeFiles/grpc.dir/clean:
 # Target rules for target CMakeFiles/grpc_print_google_default_creds_token.dir
 
 # All Build rule for target.
-CMakeFiles/grpc_print_google_default_creds_token.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
-CMakeFiles/grpc_print_google_default_creds_token.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_print_google_default_creds_token.dir/all: CMakeFiles/grpc.dir/all
 CMakeFiles/grpc_print_google_default_creds_token.dir/all: CMakeFiles/address_sorting.dir/all
 CMakeFiles/grpc_print_google_default_creds_token.dir/all: CMakeFiles/gpr.dir/all
 CMakeFiles/grpc_print_google_default_creds_token.dir/all: third_party/zlib/CMakeFiles/zlibstatic.dir/all
+CMakeFiles/grpc_print_google_default_creds_token.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
+CMakeFiles/grpc_print_google_default_creds_token.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 CMakeFiles/grpc_print_google_default_creds_token.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f CMakeFiles/grpc_print_google_default_creds_token.dir/build.make CMakeFiles/grpc_print_google_default_creds_token.dir/depend
 	$(MAKE) -f CMakeFiles/grpc_print_google_default_creds_token.dir/build.make CMakeFiles/grpc_print_google_default_creds_token.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_print_google_default_creds_token"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_print_google_default_creds_token"
 .PHONY : CMakeFiles/grpc_print_google_default_creds_token.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc_print_google_default_creds_token.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc_print_google_default_creds_token.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc_print_google_default_creds_token.dir/rule
 
 # Convenience name for target.
@@ -1822,14 +1822,14 @@ CMakeFiles/grpc_print_google_default_creds_token.dir/clean:
 CMakeFiles/grpc_plugin_support.dir/all:
 	$(MAKE) -f CMakeFiles/grpc_plugin_support.dir/build.make CMakeFiles/grpc_plugin_support.dir/depend
 	$(MAKE) -f CMakeFiles/grpc_plugin_support.dir/build.make CMakeFiles/grpc_plugin_support.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_plugin_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target grpc_plugin_support"
 .PHONY : CMakeFiles/grpc_plugin_support.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/grpc_plugin_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/grpc_plugin_support.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/grpc_plugin_support.dir/rule
 
 # Convenience name for target.
@@ -1849,14 +1849,14 @@ CMakeFiles/grpc_plugin_support.dir/clean:
 CMakeFiles/address_sorting.dir/all:
 	$(MAKE) -f CMakeFiles/address_sorting.dir/build.make CMakeFiles/address_sorting.dir/depend
 	$(MAKE) -f CMakeFiles/address_sorting.dir/build.make CMakeFiles/address_sorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target address_sorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target address_sorting"
 .PHONY : CMakeFiles/address_sorting.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/address_sorting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/address_sorting.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/address_sorting.dir/rule
 
 # Convenience name for target.
@@ -1876,14 +1876,14 @@ CMakeFiles/address_sorting.dir/clean:
 CMakeFiles/gpr.dir/all:
 	$(MAKE) -f CMakeFiles/gpr.dir/build.make CMakeFiles/gpr.dir/depend
 	$(MAKE) -f CMakeFiles/gpr.dir/build.make CMakeFiles/gpr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=18,19,20 "Built target gpr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=18,19,20 "Built target gpr"
 .PHONY : CMakeFiles/gpr.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gpr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gpr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/gpr.dir/rule
 
 # Convenience name for target.
@@ -1900,23 +1900,23 @@ CMakeFiles/gpr.dir/clean:
 # Target rules for target CMakeFiles/tools_c.dir
 
 # All Build rule for target.
+CMakeFiles/tools_c.dir/all: CMakeFiles/check_epollexclusive.dir/all
 CMakeFiles/tools_c.dir/all: CMakeFiles/gen_hpack_tables.dir/all
 CMakeFiles/tools_c.dir/all: CMakeFiles/grpc_verify_jwt.dir/all
 CMakeFiles/tools_c.dir/all: CMakeFiles/gen_percent_encoding_tables.dir/all
-CMakeFiles/tools_c.dir/all: CMakeFiles/grpc_print_google_default_creds_token.dir/all
 CMakeFiles/tools_c.dir/all: CMakeFiles/grpc_create_jwt.dir/all
-CMakeFiles/tools_c.dir/all: CMakeFiles/check_epollexclusive.dir/all
+CMakeFiles/tools_c.dir/all: CMakeFiles/grpc_print_google_default_creds_token.dir/all
 CMakeFiles/tools_c.dir/all: CMakeFiles/gen_legal_metadata_characters.dir/all
 	$(MAKE) -f CMakeFiles/tools_c.dir/build.make CMakeFiles/tools_c.dir/depend
 	$(MAKE) -f CMakeFiles/tools_c.dir/build.make CMakeFiles/tools_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target tools_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target tools_c"
 .PHONY : CMakeFiles/tools_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tools_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tools_c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/tools_c.dir/rule
 
 # Convenience name for target.
@@ -1937,14 +1937,14 @@ CMakeFiles/tools.dir/all: CMakeFiles/tools_cxx.dir/all
 CMakeFiles/tools.dir/all: CMakeFiles/tools_c.dir/all
 	$(MAKE) -f CMakeFiles/tools.dir/build.make CMakeFiles/tools.dir/depend
 	$(MAKE) -f CMakeFiles/tools.dir/build.make CMakeFiles/tools.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target tools"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target tools"
 .PHONY : CMakeFiles/tools.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tools.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tools.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/tools.dir/rule
 
 # Convenience name for target.
@@ -1964,14 +1964,14 @@ CMakeFiles/tools.dir/clean:
 CMakeFiles/gen_legal_metadata_characters.dir/all:
 	$(MAKE) -f CMakeFiles/gen_legal_metadata_characters.dir/build.make CMakeFiles/gen_legal_metadata_characters.dir/depend
 	$(MAKE) -f CMakeFiles/gen_legal_metadata_characters.dir/build.make CMakeFiles/gen_legal_metadata_characters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target gen_legal_metadata_characters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target gen_legal_metadata_characters"
 .PHONY : CMakeFiles/gen_legal_metadata_characters.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gen_legal_metadata_characters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gen_legal_metadata_characters.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/gen_legal_metadata_characters.dir/rule
 
 # Convenience name for target.
@@ -1991,14 +1991,14 @@ CMakeFiles/gen_legal_metadata_characters.dir/clean:
 CMakeFiles/plugins.dir/all:
 	$(MAKE) -f CMakeFiles/plugins.dir/build.make CMakeFiles/plugins.dir/depend
 	$(MAKE) -f CMakeFiles/plugins.dir/build.make CMakeFiles/plugins.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target plugins"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target plugins"
 .PHONY : CMakeFiles/plugins.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/plugins.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/plugins.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/plugins.dir/rule
 
 # Convenience name for target.
@@ -2018,14 +2018,14 @@ CMakeFiles/plugins.dir/clean:
 third_party/zlib/CMakeFiles/zlibstatic.dir/all:
 	$(MAKE) -f third_party/zlib/CMakeFiles/zlibstatic.dir/build.make third_party/zlib/CMakeFiles/zlibstatic.dir/depend
 	$(MAKE) -f third_party/zlib/CMakeFiles/zlibstatic.dir/build.make third_party/zlib/CMakeFiles/zlibstatic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=100 "Built target zlibstatic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=100 "Built target zlibstatic"
 .PHONY : third_party/zlib/CMakeFiles/zlibstatic.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/zlib/CMakeFiles/zlibstatic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/zlib/CMakeFiles/zlibstatic.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/zlib/CMakeFiles/zlibstatic.dir/rule
 
 # Convenience name for target.
@@ -2045,14 +2045,14 @@ third_party/zlib/CMakeFiles/zlibstatic.dir/clean:
 third_party/zlib/CMakeFiles/example.dir/all: third_party/zlib/CMakeFiles/zlib.dir/all
 	$(MAKE) -f third_party/zlib/CMakeFiles/example.dir/build.make third_party/zlib/CMakeFiles/example.dir/depend
 	$(MAKE) -f third_party/zlib/CMakeFiles/example.dir/build.make third_party/zlib/CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target example"
 .PHONY : third_party/zlib/CMakeFiles/example.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/zlib/CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/zlib/CMakeFiles/example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/zlib/CMakeFiles/example.dir/rule
 
 # Convenience name for target.
@@ -2072,14 +2072,14 @@ third_party/zlib/CMakeFiles/example.dir/clean:
 third_party/zlib/CMakeFiles/minigzip.dir/all: third_party/zlib/CMakeFiles/zlib.dir/all
 	$(MAKE) -f third_party/zlib/CMakeFiles/minigzip.dir/build.make third_party/zlib/CMakeFiles/minigzip.dir/depend
 	$(MAKE) -f third_party/zlib/CMakeFiles/minigzip.dir/build.make third_party/zlib/CMakeFiles/minigzip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target minigzip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target minigzip"
 .PHONY : third_party/zlib/CMakeFiles/minigzip.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/zlib/CMakeFiles/minigzip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/zlib/CMakeFiles/minigzip.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/zlib/CMakeFiles/minigzip.dir/rule
 
 # Convenience name for target.
@@ -2099,14 +2099,14 @@ third_party/zlib/CMakeFiles/minigzip.dir/clean:
 third_party/zlib/CMakeFiles/zlib.dir/all:
 	$(MAKE) -f third_party/zlib/CMakeFiles/zlib.dir/build.make third_party/zlib/CMakeFiles/zlib.dir/depend
 	$(MAKE) -f third_party/zlib/CMakeFiles/zlib.dir/build.make third_party/zlib/CMakeFiles/zlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=99 "Built target zlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=99 "Built target zlib"
 .PHONY : third_party/zlib/CMakeFiles/zlib.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/zlib/CMakeFiles/zlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/zlib/CMakeFiles/zlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/zlib/CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
@@ -2126,14 +2126,14 @@ third_party/zlib/CMakeFiles/zlib.dir/clean:
 third_party/cares/cares/CMakeFiles/acountry.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/acountry.dir/build.make third_party/cares/cares/CMakeFiles/acountry.dir/depend
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/acountry.dir/build.make third_party/cares/cares/CMakeFiles/acountry.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target acountry"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target acountry"
 .PHONY : third_party/cares/cares/CMakeFiles/acountry.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/cares/cares/CMakeFiles/acountry.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/cares/cares/CMakeFiles/acountry.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/cares/cares/CMakeFiles/acountry.dir/rule
 
 # Convenience name for target.
@@ -2153,14 +2153,14 @@ third_party/cares/cares/CMakeFiles/acountry.dir/clean:
 third_party/cares/cares/CMakeFiles/adig.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/adig.dir/build.make third_party/cares/cares/CMakeFiles/adig.dir/depend
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/adig.dir/build.make third_party/cares/cares/CMakeFiles/adig.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target adig"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target adig"
 .PHONY : third_party/cares/cares/CMakeFiles/adig.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/cares/cares/CMakeFiles/adig.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/cares/cares/CMakeFiles/adig.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/cares/cares/CMakeFiles/adig.dir/rule
 
 # Convenience name for target.
@@ -2180,14 +2180,14 @@ third_party/cares/cares/CMakeFiles/adig.dir/clean:
 third_party/cares/cares/CMakeFiles/ahost.dir/all: third_party/cares/cares/CMakeFiles/c-ares.dir/all
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/ahost.dir/build.make third_party/cares/cares/CMakeFiles/ahost.dir/depend
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/ahost.dir/build.make third_party/cares/cares/CMakeFiles/ahost.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=1 "Built target ahost"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=1 "Built target ahost"
 .PHONY : third_party/cares/cares/CMakeFiles/ahost.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/cares/cares/CMakeFiles/ahost.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/cares/cares/CMakeFiles/ahost.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/cares/cares/CMakeFiles/ahost.dir/rule
 
 # Convenience name for target.
@@ -2207,14 +2207,14 @@ third_party/cares/cares/CMakeFiles/ahost.dir/clean:
 third_party/cares/cares/CMakeFiles/c-ares.dir/all:
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/c-ares.dir/build.make third_party/cares/cares/CMakeFiles/c-ares.dir/depend
 	$(MAKE) -f third_party/cares/cares/CMakeFiles/c-ares.dir/build.make third_party/cares/cares/CMakeFiles/c-ares.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=6,7,8 "Built target c-ares"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=6,7,8 "Built target c-ares"
 .PHONY : third_party/cares/cares/CMakeFiles/c-ares.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/cares/cares/CMakeFiles/c-ares.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/cares/cares/CMakeFiles/c-ares.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/cares/cares/CMakeFiles/c-ares.dir/rule
 
 # Convenience name for target.
@@ -2235,14 +2235,14 @@ third_party/boringssl/CMakeFiles/run_tests.dir/all: third_party/boringssl/CMakeF
 third_party/boringssl/CMakeFiles/run_tests.dir/all: third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all
 	$(MAKE) -f third_party/boringssl/CMakeFiles/run_tests.dir/build.make third_party/boringssl/CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f third_party/boringssl/CMakeFiles/run_tests.dir/build.make third_party/boringssl/CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : third_party/boringssl/CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 22
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -2264,14 +2264,14 @@ third_party/boringssl/CMakeFiles/all_tests.dir/all: third_party/boringssl/ssl/CM
 third_party/boringssl/CMakeFiles/all_tests.dir/all: third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/all
 	$(MAKE) -f third_party/boringssl/CMakeFiles/all_tests.dir/build.make third_party/boringssl/CMakeFiles/all_tests.dir/depend
 	$(MAKE) -f third_party/boringssl/CMakeFiles/all_tests.dir/build.make third_party/boringssl/CMakeFiles/all_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target all_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target all_tests"
 .PHONY : third_party/boringssl/CMakeFiles/all_tests.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/CMakeFiles/all_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 22
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/all_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/CMakeFiles/all_tests.dir/rule
 
 # Convenience name for target.
@@ -2291,14 +2291,14 @@ third_party/boringssl/CMakeFiles/all_tests.dir/clean:
 third_party/boringssl/CMakeFiles/crypto_test_data.dir/all:
 	$(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/depend
 	$(MAKE) -f third_party/boringssl/CMakeFiles/crypto_test_data.dir/build.make third_party/boringssl/CMakeFiles/crypto_test_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target crypto_test_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target crypto_test_data"
 .PHONY : third_party/boringssl/CMakeFiles/crypto_test_data.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/CMakeFiles/crypto_test_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/crypto_test_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/CMakeFiles/crypto_test_data.dir/rule
 
 # Convenience name for target.
@@ -2318,14 +2318,14 @@ third_party/boringssl/CMakeFiles/crypto_test_data.dir/clean:
 third_party/boringssl/CMakeFiles/boringssl_gtest.dir/all:
 	$(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/depend
 	$(MAKE) -f third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build.make third_party/boringssl/CMakeFiles/boringssl_gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target boringssl_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target boringssl_gtest"
 .PHONY : third_party/boringssl/CMakeFiles/boringssl_gtest.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/CMakeFiles/boringssl_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/CMakeFiles/boringssl_gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/CMakeFiles/boringssl_gtest.dir/rule
 
 # Convenience name for target.
@@ -2345,14 +2345,14 @@ third_party/boringssl/CMakeFiles/boringssl_gtest.dir/clean:
 third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/build.make third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/build.make third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=10 "Built target crypto_base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=10 "Built target crypto_base"
 .PHONY : third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/CMakeFiles/crypto_base.dir/rule
 
 # Convenience name for target.
@@ -2376,14 +2376,14 @@ third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/all: third_party/borings
 third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/all: third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/all
 	$(MAKE) -f third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/build.make third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/build.make third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=11,12,13 "Built target crypto_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=11,12,13 "Built target crypto_test"
 .PHONY : third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/CMakeFiles/crypto_test.dir/rule
 
 # Convenience name for target.
@@ -2439,14 +2439,14 @@ third_party/boringssl/crypto/CMakeFiles/crypto.dir/all: third_party/boringssl/cr
 third_party/boringssl/crypto/CMakeFiles/crypto.dir/all: third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/all
 	$(MAKE) -f third_party/boringssl/crypto/CMakeFiles/crypto.dir/build.make third_party/boringssl/crypto/CMakeFiles/crypto.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/CMakeFiles/crypto.dir/build.make third_party/boringssl/crypto/CMakeFiles/crypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target crypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target crypto"
 .PHONY : third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/CMakeFiles/crypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/CMakeFiles/crypto.dir/rule
 
 # Convenience name for target.
@@ -2466,14 +2466,14 @@ third_party/boringssl/crypto/CMakeFiles/crypto.dir/clean:
 third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/build.make third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/build.make third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target stack"
 .PHONY : third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/rule
 
 # Convenience name for target.
@@ -2493,14 +2493,14 @@ third_party/boringssl/crypto/stack/CMakeFiles/stack.dir/clean:
 third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/build.make third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target lhash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target lhash"
 .PHONY : third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/rule
 
 # Convenience name for target.
@@ -2520,14 +2520,14 @@ third_party/boringssl/crypto/lhash/CMakeFiles/lhash.dir/clean:
 third_party/boringssl/crypto/err/CMakeFiles/err.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/err/CMakeFiles/err.dir/build.make third_party/boringssl/crypto/err/CMakeFiles/err.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/err/CMakeFiles/err.dir/build.make third_party/boringssl/crypto/err/CMakeFiles/err.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target err"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target err"
 .PHONY : third_party/boringssl/crypto/err/CMakeFiles/err.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/err/CMakeFiles/err.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/err/CMakeFiles/err.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/err/CMakeFiles/err.dir/rule
 
 # Convenience name for target.
@@ -2547,14 +2547,14 @@ third_party/boringssl/crypto/err/CMakeFiles/err.dir/clean:
 third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/build.make third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/build.make third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=5 "Built target buf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=5 "Built target buf"
 .PHONY : third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/rule
 
 # Convenience name for target.
@@ -2574,14 +2574,14 @@ third_party/boringssl/crypto/buf/CMakeFiles/buf.dir/clean:
 third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/build.make third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/build.make third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target base64"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target base64"
 .PHONY : third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/rule
 
 # Convenience name for target.
@@ -2601,14 +2601,14 @@ third_party/boringssl/crypto/base64/CMakeFiles/base64.dir/clean:
 third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/build.make third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/build.make third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bytestring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bytestring"
 .PHONY : third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/rule
 
 # Convenience name for target.
@@ -2628,14 +2628,14 @@ third_party/boringssl/crypto/bytestring/CMakeFiles/bytestring.dir/clean:
 third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/build.make third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/build.make third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target pool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target pool"
 .PHONY : third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/rule
 
 # Convenience name for target.
@@ -2655,14 +2655,14 @@ third_party/boringssl/crypto/pool/CMakeFiles/pool.dir/clean:
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build.make third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rc4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rc4"
 .PHONY : third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/rule
 
 # Convenience name for target.
@@ -2682,14 +2682,14 @@ third_party/boringssl/crypto/rc4/CMakeFiles/rc4.dir/clean:
 third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/build.make third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/build.make third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target conf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target conf"
 .PHONY : third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/rule
 
 # Convenience name for target.
@@ -2709,14 +2709,14 @@ third_party/boringssl/crypto/conf/CMakeFiles/conf.dir/clean:
 third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build.make third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target chacha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target chacha"
 .PHONY : third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/rule
 
 # Convenience name for target.
@@ -2736,14 +2736,14 @@ third_party/boringssl/crypto/chacha/CMakeFiles/chacha.dir/clean:
 third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build.make third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target poly1305"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target poly1305"
 .PHONY : third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/rule
 
 # Convenience name for target.
@@ -2763,14 +2763,14 @@ third_party/boringssl/crypto/poly1305/CMakeFiles/poly1305.dir/clean:
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/build.make third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/build.make third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target curve25519"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target curve25519"
 .PHONY : third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/rule
 
 # Convenience name for target.
@@ -2790,14 +2790,14 @@ third_party/boringssl/crypto/curve25519/CMakeFiles/curve25519.dir/clean:
 third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/build.make third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/build.make third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target digest_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target digest_extra"
 .PHONY : third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/rule
 
 # Convenience name for target.
@@ -2817,14 +2817,14 @@ third_party/boringssl/crypto/digest_extra/CMakeFiles/digest_extra.dir/clean:
 third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/build.make third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/build.make third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=9 "Built target cipher_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=9 "Built target cipher_extra"
 .PHONY : third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/rule
 
 # Convenience name for target.
@@ -2844,14 +2844,14 @@ third_party/boringssl/crypto/cipher_extra/CMakeFiles/cipher_extra.dir/clean:
 third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build.make third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rand_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rand_extra"
 .PHONY : third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/rule
 
 # Convenience name for target.
@@ -2871,14 +2871,14 @@ third_party/boringssl/crypto/rand_extra/CMakeFiles/rand_extra.dir/clean:
 third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/build.make third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/build.make third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=3 "Built target bio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=3 "Built target bio"
 .PHONY : third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/rule
 
 # Convenience name for target.
@@ -2898,14 +2898,14 @@ third_party/boringssl/crypto/bio/CMakeFiles/bio.dir/clean:
 third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/build.make third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/build.make third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bn_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bn_extra"
 .PHONY : third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/rule
 
 # Convenience name for target.
@@ -2925,14 +2925,14 @@ third_party/boringssl/crypto/bn_extra/CMakeFiles/bn_extra.dir/clean:
 third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/build.make third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/build.make third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target obj"
 .PHONY : third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/rule
 
 # Convenience name for target.
@@ -2952,14 +2952,14 @@ third_party/boringssl/crypto/obj/CMakeFiles/obj.dir/clean:
 third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/build.make third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/build.make third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=2 "Built target asn1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=2 "Built target asn1"
 .PHONY : third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/rule
 
 # Convenience name for target.
@@ -2979,14 +2979,14 @@ third_party/boringssl/crypto/asn1/CMakeFiles/asn1.dir/clean:
 third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/build.make third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/build.make third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target engine"
 .PHONY : third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/rule
 
 # Convenience name for target.
@@ -3006,14 +3006,14 @@ third_party/boringssl/crypto/engine/CMakeFiles/engine.dir/clean:
 third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/build.make third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/build.make third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target dh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target dh"
 .PHONY : third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/rule
 
 # Convenience name for target.
@@ -3033,14 +3033,14 @@ third_party/boringssl/crypto/dh/CMakeFiles/dh.dir/clean:
 third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/build.make third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/build.make third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=14 "Built target dsa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=14 "Built target dsa"
 .PHONY : third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/rule
 
 # Convenience name for target.
@@ -3060,14 +3060,14 @@ third_party/boringssl/crypto/dsa/CMakeFiles/dsa.dir/clean:
 third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/build.make third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/build.make third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rsa_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rsa_extra"
 .PHONY : third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/rule
 
 # Convenience name for target.
@@ -3087,14 +3087,14 @@ third_party/boringssl/crypto/rsa_extra/CMakeFiles/rsa_extra.dir/clean:
 third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/build.make third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/build.make third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ec_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ec_extra"
 .PHONY : third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/rule
 
 # Convenience name for target.
@@ -3114,14 +3114,14 @@ third_party/boringssl/crypto/ec_extra/CMakeFiles/ec_extra.dir/clean:
 third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/build.make third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/build.make third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ecdh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ecdh"
 .PHONY : third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/rule
 
 # Convenience name for target.
@@ -3141,14 +3141,14 @@ third_party/boringssl/crypto/ecdh/CMakeFiles/ecdh.dir/clean:
 third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/build.make third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/build.make third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ecdsa_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ecdsa_extra"
 .PHONY : third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/rule
 
 # Convenience name for target.
@@ -3168,14 +3168,14 @@ third_party/boringssl/crypto/ecdsa_extra/CMakeFiles/ecdsa_extra.dir/clean:
 third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/build.make third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/build.make third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target cmac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target cmac"
 .PHONY : third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/rule
 
 # Convenience name for target.
@@ -3195,14 +3195,14 @@ third_party/boringssl/crypto/cmac/CMakeFiles/cmac.dir/clean:
 third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/build.make third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/build.make third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=15 "Built target evp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=15 "Built target evp"
 .PHONY : third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/rule
 
 # Convenience name for target.
@@ -3222,14 +3222,14 @@ third_party/boringssl/crypto/evp/CMakeFiles/evp.dir/clean:
 third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/build.make third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/build.make third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=89 "Built target hkdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=89 "Built target hkdf"
 .PHONY : third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/rule
 
 # Convenience name for target.
@@ -3249,14 +3249,14 @@ third_party/boringssl/crypto/hkdf/CMakeFiles/hkdf.dir/clean:
 third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/build.make third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/build.make third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target pem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target pem"
 .PHONY : third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/rule
 
 # Convenience name for target.
@@ -3276,14 +3276,14 @@ third_party/boringssl/crypto/pem/CMakeFiles/pem.dir/clean:
 third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/build.make third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/build.make third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=94,95,96 "Built target x509"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=94,95,96 "Built target x509"
 .PHONY : third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/rule
 
 # Convenience name for target.
@@ -3303,14 +3303,14 @@ third_party/boringssl/crypto/x509/CMakeFiles/x509.dir/clean:
 third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/build.make third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/build.make third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=97,98 "Built target x509v3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=97,98 "Built target x509v3"
 .PHONY : third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/rule
 
 # Convenience name for target.
@@ -3330,14 +3330,14 @@ third_party/boringssl/crypto/x509v3/CMakeFiles/x509v3.dir/clean:
 third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/build.make third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/build.make third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target pkcs7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target pkcs7"
 .PHONY : third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/rule
 
 # Convenience name for target.
@@ -3357,14 +3357,14 @@ third_party/boringssl/crypto/pkcs7/CMakeFiles/pkcs7.dir/clean:
 third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/build.make third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/build.make third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=90 "Built target pkcs8_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=90 "Built target pkcs8_lib"
 .PHONY : third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/rule
 
 # Convenience name for target.
@@ -3384,14 +3384,14 @@ third_party/boringssl/crypto/pkcs8/CMakeFiles/pkcs8_lib.dir/clean:
 third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/build.make third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/build.make third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target boringssl_gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target boringssl_gtest_main"
 .PHONY : third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/rule
 
 # Convenience name for target.
@@ -3411,14 +3411,14 @@ third_party/boringssl/crypto/test/CMakeFiles/boringssl_gtest_main.dir/clean:
 third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/build.make third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/build.make third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target test_support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target test_support"
 .PHONY : third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/rule
 
 # Convenience name for target.
@@ -3438,14 +3438,14 @@ third_party/boringssl/crypto/test/CMakeFiles/test_support.dir/clean:
 third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/all:
 	$(MAKE) -f third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/build.make third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/depend
 	$(MAKE) -f third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/build.make third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=16,17 "Built target fipsmodule"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=16,17 "Built target fipsmodule"
 .PHONY : third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/rule
 
 # Convenience name for target.
@@ -3465,14 +3465,14 @@ third_party/boringssl/crypto/fipsmodule/CMakeFiles/fipsmodule.dir/clean:
 third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/all:
 	$(MAKE) -f third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/build.make third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/depend
 	$(MAKE) -f third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/build.make third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target fiat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target fiat"
 .PHONY : third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/third_party/fiat/CMakeFiles/fiat.dir/rule
 
 # Convenience name for target.
@@ -3496,14 +3496,14 @@ third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/all: third_party/boringssl/cry
 third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/build.make third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/depend
 	$(MAKE) -f third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/build.make third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ssl_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ssl_test"
 .PHONY : third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/rule
 
 # Convenience name for target.
@@ -3523,14 +3523,14 @@ third_party/boringssl/ssl/CMakeFiles/ssl_test.dir/clean:
 third_party/boringssl/ssl/CMakeFiles/ssl.dir/all: third_party/boringssl/crypto/CMakeFiles/crypto.dir/all
 	$(MAKE) -f third_party/boringssl/ssl/CMakeFiles/ssl.dir/build.make third_party/boringssl/ssl/CMakeFiles/ssl.dir/depend
 	$(MAKE) -f third_party/boringssl/ssl/CMakeFiles/ssl.dir/build.make third_party/boringssl/ssl/CMakeFiles/ssl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=91,92,93 "Built target ssl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=91,92,93 "Built target ssl"
 .PHONY : third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/ssl/CMakeFiles/ssl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/ssl/CMakeFiles/ssl.dir/rule
 
 # Convenience name for target.
@@ -3552,14 +3552,14 @@ third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all: third_party/borings
 third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/build.make third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/depend
 	$(MAKE) -f third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/build.make third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bssl_shim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bssl_shim"
 .PHONY : third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/ssl/test/CMakeFiles/bssl_shim.dir/rule
 
 # Convenience name for target.
@@ -3580,14 +3580,14 @@ third_party/boringssl/tool/CMakeFiles/bssl.dir/all: third_party/boringssl/crypto
 third_party/boringssl/tool/CMakeFiles/bssl.dir/all: third_party/boringssl/ssl/CMakeFiles/ssl.dir/all
 	$(MAKE) -f third_party/boringssl/tool/CMakeFiles/bssl.dir/build.make third_party/boringssl/tool/CMakeFiles/bssl.dir/depend
 	$(MAKE) -f third_party/boringssl/tool/CMakeFiles/bssl.dir/build.make third_party/boringssl/tool/CMakeFiles/bssl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=4 "Built target bssl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num=4 "Built target bssl"
 .PHONY : third_party/boringssl/tool/CMakeFiles/bssl.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/tool/CMakeFiles/bssl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/tool/CMakeFiles/bssl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/tool/CMakeFiles/bssl.dir/rule
 
 # Convenience name for target.
@@ -3612,14 +3612,14 @@ third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/all: third_party/bor
 third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/all: third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/all
 	$(MAKE) -f third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/build.make third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/build.make third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target decrepit_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target decrepit_test"
 .PHONY : third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/CMakeFiles/decrepit_test.dir/rule
 
 # Convenience name for target.
@@ -3655,14 +3655,14 @@ third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/all: third_party/boringss
 third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/all: third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/all
 	$(MAKE) -f third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/build.make third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/build.make third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target decrepit"
 .PHONY : third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/rule
 
 # Convenience name for target.
@@ -3682,14 +3682,14 @@ third_party/boringssl/decrepit/CMakeFiles/decrepit.dir/clean:
 third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/build.make third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/build.make third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bio_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target bio_decrepit"
 .PHONY : third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3709,14 +3709,14 @@ third_party/boringssl/decrepit/bio/CMakeFiles/bio_decrepit.dir/clean:
 third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/build.make third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/build.make third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target blowfish"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target blowfish"
 .PHONY : third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/rule
 
 # Convenience name for target.
@@ -3736,14 +3736,14 @@ third_party/boringssl/decrepit/blowfish/CMakeFiles/blowfish.dir/clean:
 third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/build.make third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/build.make third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target cast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target cast"
 .PHONY : third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/rule
 
 # Convenience name for target.
@@ -3763,14 +3763,14 @@ third_party/boringssl/decrepit/cast/CMakeFiles/cast.dir/clean:
 third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/build.make third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/build.make third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target cfb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target cfb"
 .PHONY : third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/rule
 
 # Convenience name for target.
@@ -3790,14 +3790,14 @@ third_party/boringssl/decrepit/cfb/CMakeFiles/cfb.dir/clean:
 third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build.make third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target des_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target des_decrepit"
 .PHONY : third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3817,14 +3817,14 @@ third_party/boringssl/decrepit/des/CMakeFiles/des_decrepit.dir/clean:
 third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/build.make third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/build.make third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target dh_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target dh_decrepit"
 .PHONY : third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3844,14 +3844,14 @@ third_party/boringssl/decrepit/dh/CMakeFiles/dh_decrepit.dir/clean:
 third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/build.make third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/build.make third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target dsa_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target dsa_decrepit"
 .PHONY : third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3871,14 +3871,14 @@ third_party/boringssl/decrepit/dsa/CMakeFiles/dsa_decrepit.dir/clean:
 third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/build.make third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/build.make third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target evp_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target evp_decrepit"
 .PHONY : third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3898,14 +3898,14 @@ third_party/boringssl/decrepit/evp/CMakeFiles/evp_decrepit.dir/clean:
 third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/build.make third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/build.make third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target obj_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target obj_decrepit"
 .PHONY : third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3925,14 +3925,14 @@ third_party/boringssl/decrepit/obj/CMakeFiles/obj_decrepit.dir/clean:
 third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/build.make third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/build.make third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rc4_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rc4_decrepit"
 .PHONY : third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3952,14 +3952,14 @@ third_party/boringssl/decrepit/rc4/CMakeFiles/rc4_decrepit.dir/clean:
 third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/build.make third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/build.make third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ripemd_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ripemd_decrepit"
 .PHONY : third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/rule
 
 # Convenience name for target.
@@ -3979,14 +3979,14 @@ third_party/boringssl/decrepit/ripemd/CMakeFiles/ripemd_decrepit.dir/clean:
 third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/build.make third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/build.make third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rsa_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target rsa_decrepit"
 .PHONY : third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/rule
 
 # Convenience name for target.
@@ -4006,14 +4006,14 @@ third_party/boringssl/decrepit/rsa/CMakeFiles/rsa_decrepit.dir/clean:
 third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/build.make third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/build.make third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ssl_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target ssl_decrepit"
 .PHONY : third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/rule
 
 # Convenience name for target.
@@ -4033,14 +4033,14 @@ third_party/boringssl/decrepit/ssl/CMakeFiles/ssl_decrepit.dir/clean:
 third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/build.make third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/build.make third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target x509_decrepit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target x509_decrepit"
 .PHONY : third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/rule
 
 # Convenience name for target.
@@ -4060,14 +4060,14 @@ third_party/boringssl/decrepit/x509/CMakeFiles/x509_decrepit.dir/clean:
 third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/all:
 	$(MAKE) -f third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/build.make third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/depend
 	$(MAKE) -f third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/build.make third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target xts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles --progress-num= "Built target xts"
 .PHONY : third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aidanm/Documents/GitHub/rust-project/kronosx-rs/target/debug/build/grpcio-sys-acb394a567f25e60/out/build/CMakeFiles 0
 .PHONY : third_party/boringssl/decrepit/xts/CMakeFiles/xts.dir/rule
 
 # Convenience name for target.
