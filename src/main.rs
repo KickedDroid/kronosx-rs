@@ -3,7 +3,7 @@ use futures::{Future, Sink};
 extern crate cryptoxide;
 extern crate grpcio;
 pub mod protos;
-
+use std::collections::HashMap;
 mod fileapi;
 use fileapi::{create_upload_req, new_file_client};
 mod rep;
@@ -13,14 +13,20 @@ use statusapi::{create_empty_req, new_status_client};
 mod block;
 use block::{get_block, new_node_client, put_block};
 mod p2p;
-use p2p::create_p2p_req;
+
 mod dag;
-use dag::{create_dag_service, put_dag, get_dag};
+use dag::{add_dag_links, get_dag, get_dag_links, get_dag_many, put_dag};
 
 fn main() {
-    let dag_service = create_dag_service();
     let cid = "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq";
-    get_dag(dag_service, cid.to_string());
+    let cid2 = "bafkreiadrrjhot4osxtgb6voecvgfwabmjesgfdblh6iqgqt3l6l6soz4y";
+    let data = "Wassaup dude".as_bytes();
+
+    let mut cids = Vec::default();
+    cids.push(cid.to_string());
+    cids.push(cid2.to_string());
+    get_dag_many(&cids);
+    //let r2 = get_dag_links(&hash);
 }
 
 #[cfg(test)]
@@ -57,15 +63,24 @@ mod tests {
 
     #[test]
     fn dag_put_test() {
-        let dag_service = create_dag_service();
         let data = "Hey Bruh".as_bytes();
-        put_dag(dag_service, data);
+        put_dag(data);
     }
 
     #[test]
     fn dag_get_test() {
-        let dag_service = create_dag_service();
         let cid = "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq";
-        get_dag(dag_service, cid.to_string());
+        get_dag(cid.to_string());
+    }
+
+    #[test]
+    fn dag_get_many_test() {
+        let cid = "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq";
+        let cid2 = "bafkreiadrrjhot4osxtgb6voecvgfwabmjesgfdblh6iqgqt3l6l6soz4y";
+
+        let mut cids = Vec::default();
+        cids.push(cid.to_string());
+        cids.push(cid2.to_string());
+        get_dag_many(&cids);
     }
 }
