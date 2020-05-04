@@ -5,7 +5,7 @@
 
 ### Dag 
 
-````
+```rust
 fn dag_put_test() {
      let dag_service = create_dag_service();
      let data = "Hey Bruh".as_bytes();
@@ -16,7 +16,7 @@ fn dag_put_test() {
 OUTPUT: "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq"
 ````
 
-````
+```rust
 fn dag_get_test() {
     let dag_service = create_dag_service();
     let cid = "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq";
