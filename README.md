@@ -7,7 +7,7 @@
 ```rust
 fn dag_put_test() {
      let data = "Hey Bruh".as_bytes();
-     put_dag(dag_service, data);
+     put_dag(data);
 }
 ````
 ````
@@ -17,7 +17,7 @@ OUTPUT: "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq"
 ```rust
 fn dag_get_test() {
     let cid = "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq";
-    get_dag(dag_service, cid.to_string());
+    get_dag(cid.to_string());
 }
 ````
 
