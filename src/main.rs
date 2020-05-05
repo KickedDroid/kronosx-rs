@@ -26,6 +26,7 @@ fn main() {
     cids.push(cid.to_string());
     cids.push(cid2.to_string());
     get_dag_many(&cids);
+    
     //let r2 = get_dag_links(&hash);
 }
 
