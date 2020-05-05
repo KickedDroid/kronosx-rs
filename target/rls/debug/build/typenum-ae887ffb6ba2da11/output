@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/typenum-ae887ffb6ba2da11/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/aidanm/Documents/GitHub/kronosx-rs/target/rls/debug/build/typenum-ae887ffb6ba2da11/out/op.rs
