@@ -2,8 +2,6 @@ use futures::Future;
 use std::sync::Arc;
 extern crate grpcio;
 extern crate cryptoxide;
-
-
 use grpcio::{ChannelBuilder, EnvBuilder};
 use ::protos::file_grpc::FileApiClient;
 use ::protos::file::{ UploadRequest, UploadOptions, Blob};
@@ -35,7 +33,7 @@ fn main() {
 }
 
 // Creates a default Upload Request
-pub fn create_upload_req() -> UploadRequest {
+fn create_upload_req() -> UploadRequest {
         let mut up_req = UploadRequest::default();
         let mut up_opts = UploadOptions::default();
 
@@ -54,4 +52,12 @@ pub fn new_file_client() -> FileApiClient {
         let ch = ChannelBuilder::new(env).connect("xapi.temporal.cloud:9090");
         let client = FileApiClient::new(ch);
         client
+}
+
+pub fn upload_file() {
+        let cli = new_file_client();
+        let req = create_upload_req();
+
+        let (r, resp) = cli.upload_file().expect("RPC Failed");
+        
 }

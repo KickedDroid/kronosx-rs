@@ -1,11 +1,11 @@
+#![allow(unused_imports)]
 use futures::{Future, Sink};
-
 extern crate cryptoxide;
 extern crate grpcio;
 pub mod protos;
 use std::collections::HashMap;
 mod fileapi;
-use fileapi::{create_upload_req, new_file_client};
+use fileapi::{new_file_client};
 mod rep;
 use rep::{get_signature, new_rep_client};
 mod statusapi;
@@ -13,6 +13,7 @@ use statusapi::{create_empty_req, new_status_client};
 mod block;
 use block::{get_block, new_node_client, put_block};
 mod p2p;
+use p2p::{get_peers, get_connection_stats};
 
 mod dag;
 use dag::{add_dag_links, get_dag, get_dag_links, get_dag_many, put_dag};
@@ -22,12 +23,15 @@ fn main() {
     let cid2 = "bafkreiadrrjhot4osxtgb6voecvgfwabmjesgfdblh6iqgqt3l6l6soz4y";
     let data = "Wassaup dude".as_bytes();
 
-    let mut cids = Vec::default();
-    cids.push(cid.to_string());
-    cids.push(cid2.to_string());
-    get_dag_many(&cids);
+    //let mut cids = Vec::default();
+    //cids.push(cid.to_string());
+    //cids.push(cid2.to_string());
+    //get_dag_many(&cids);
+
+    //get_block();
     
-    //let r2 = get_dag_links(&hash);
+    get_peers();
+    get_connection_stats();
 }
 
 #[cfg(test)]
@@ -52,14 +56,12 @@ mod tests {
 
     #[test]
     fn block_test() {
-        let block_cli = new_node_client();
-
         let mut data = Vec::new();
         data.push("hey bruh".as_bytes().to_vec());
 
-        //put_block(block_cli, data);
+        put_block(data);
 
-        get_block(block_cli);
+        get_block();
     }
 
     #[test]
@@ -83,5 +85,11 @@ mod tests {
         cids.push(cid.to_string());
         cids.push(cid2.to_string());
         get_dag_many(&cids);
+    }
+
+    #[test]
+    fn get_peers_test() {
+
+        get_peers();
     }
 }

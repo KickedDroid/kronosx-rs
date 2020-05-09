@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use ::protos::node::{DagRequest, DAGREQTYPE, DagResponse};
 use ::protos::node_grpc::NodeApiClient;
 use std::sync::Arc;

@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use ::protos::node::{BlockstoreRequest, BSREQTYPE};
 use ::protos::node_grpc::NodeApiClient;
 use std::sync::Arc;
@@ -23,7 +24,8 @@ fn create_block_req() -> BlockstoreRequest {
     block_req
 }
 
-pub fn put_block(cli: NodeApiClient,data: Vec<std::vec::Vec<u8>>) {
+pub fn put_block(data: Vec<std::vec::Vec<u8>>) {
+    let cli = new_node_client();
     let v = RepeatedField::from_vec(data);
     let mut block_req = create_block_req();
     block_req.set_data(v);
@@ -31,16 +33,17 @@ pub fn put_block(cli: NodeApiClient,data: Vec<std::vec::Vec<u8>>) {
     println!("{:?}", h);
     let cid = Cid::new(Version::V1, Codec::DagProtobuf, h).unwrap();
     cli.blockstore(&block_req).expect("RPC Failed");
-    print!("{:?}", cid.hash());
+    print!("{:?}", String::from_utf8(cid.hash().as_bytes().to_vec()));
     
 }
 
-pub fn get_block(cli: NodeApiClient) {
+pub fn get_block() {
+    let cli = new_node_client();
     let mut block_req = BlockstoreRequest::default();
     let req_type = BSREQTYPE::BS_GET;
     block_req.set_requestType(req_type);
     let mut cid = Vec::new();
-    cid.push(String::from("bafybeifx7yeb55armcsxwwitkymga5xf53dxiarykms3ygqic223w5sk3m"));
+    cid.push(String::from("bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq"));
     let v = RepeatedField::from_vec(cid);
     block_req.set_cids(v);
 

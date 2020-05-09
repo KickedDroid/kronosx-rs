@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::sync::Arc;
 extern crate grpcio;
 extern crate cryptoxide;
