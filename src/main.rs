@@ -14,7 +14,8 @@ mod block;
 use block::{get_block, new_node_client, put_block};
 mod p2p;
 use p2p::{get_peers, get_connection_stats};
-
+mod pubsub;
+use pubsub::ps_sub;
 mod dag;
 use dag::{add_dag_links, get_dag, get_dag_links, get_dag_many, put_dag};
 
@@ -29,7 +30,7 @@ fn main() {
     //get_dag_many(&cids);
 
     //get_block();
-    
+    ps_sub(String::from("Aye"));
     get_peers();
     get_connection_stats();
 }

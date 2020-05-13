@@ -11,3 +11,5 @@ pub mod node;
 pub mod node_grpc;
 pub mod status;
 pub mod status_grpc;
+pub mod pubsub;
+pub mod pubsub_grpc;
