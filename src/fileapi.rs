@@ -1,36 +1,12 @@
-use futures::Future;
+use futures::prelude::*;
 use std::sync::Arc;
-extern crate grpcio;
 extern crate cryptoxide;
-use grpcio::{ChannelBuilder, EnvBuilder};
+extern crate grpcio;
+use ::protos::file::{Blob, UploadOptions, UploadRequest};
 use ::protos::file_grpc::FileApiClient;
-use ::protos::file::{ UploadRequest, UploadOptions, Blob};
- 
+use grpcio::{ChannelBuilder, EnvBuilder, WriteFlags};
+use std::thread;
 
-fn main() {
-
-        let client = new_file_client();
-
-        let mut up_req = create_upload_req();
-
-        let mut blob = Blob::default();
-        let data = "hello".as_bytes();
-        blob.set_content(data.to_vec());
-        println!("Set blob");
-
-        up_req.set_blob(blob);
-
-        let (_resp, s) = client.upload_file().expect("RPC Failed");
-
-        match s.wait() {
-                Err(e) => panic!("{:?}", e),
-                Ok(item) => {
-                   let hash = item.get_hash();
-                   println!("{:?}", hash)
-                } 
-        }
-
-}
 
 // Creates a default Upload Request
 fn create_upload_req() -> UploadRequest {
@@ -47,17 +23,35 @@ fn create_upload_req() -> UploadRequest {
 }
 
 // Creates a new file api Client
-pub fn new_file_client() -> FileApiClient {
+fn new_file_client() -> FileApiClient {
         let env = Arc::new(EnvBuilder::new().build());
         let ch = ChannelBuilder::new(env).connect("xapi.temporal.cloud:9090");
         let client = FileApiClient::new(ch);
         client
 }
 
-pub fn upload_file() {
+pub async fn upload_file() {
         let cli = new_file_client();
-        let req = create_upload_req();
+        let mut req = create_upload_req();
 
-        let (r, resp) = cli.upload_file().expect("RPC Failed");
+        let (mut sink, receiver) = cli.upload_file().expect("RPC Failed");
+
+        let send = async move {
+                let mut blob = Blob::default();
+                let data = "hello".as_bytes();
+                blob.set_content(data.to_vec());
+                req.set_blob(blob);
+
+                sink = sink.send((req, WriteFlags::default())).wait().unwrap();
+                sink.close().unwrap();
+        };
+        send.await;
         
+        match receiver.wait() {
+                Err(e) => panic!("{:?}", e),
+                Ok(item) => {
+                        let hash = item.get_hash();
+                        println!("{:?}", hash)
+                }
+        }
 }

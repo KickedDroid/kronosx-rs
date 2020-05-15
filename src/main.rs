@@ -5,7 +5,7 @@ extern crate grpcio;
 pub mod protos;
 use std::collections::HashMap;
 mod fileapi;
-use fileapi::{new_file_client};
+use fileapi::{upload_file};
 mod rep;
 use rep::{get_signature, new_rep_client};
 mod statusapi;

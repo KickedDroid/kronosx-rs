@@ -35,11 +35,14 @@ pub async fn ps_sub(topic: String) {
 
     };
 
+    send.await;
+
     loop {
         match receiver.into_future().wait() {
             Ok((Some(item), r)) => {
-                item.get_message();
+                let msg = item.get_message();
                 receiver = r;
+                println!("{:?}", msg);
             },
             Ok((None, _)) => break,
             Err((e, _)) => return eprintln!("{:?}", e),
