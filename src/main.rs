@@ -2,6 +2,7 @@
 use futures::{Future, Sink};
 extern crate cryptoxide;
 extern crate grpcio;
+use async_std::task;
 pub mod protos;
 use std::collections::HashMap;
 mod fileapi;
@@ -19,6 +20,11 @@ use pubsub::ps_sub;
 mod dag;
 use dag::{add_dag_links, get_dag, get_dag_links, get_dag_many, put_dag};
 
+async fn async_main() {
+    ps_sub(String::from("Aye")).await;
+}
+
+
 fn main() {
     let cid = "bafkreib2wkausqyegptb7m7vhegd3oiqdzhwnhb7xxkipqifi3623u7feq";
     let cid2 = "bafkreiadrrjhot4osxtgb6voecvgfwabmjesgfdblh6iqgqt3l6l6soz4y";
@@ -30,7 +36,7 @@ fn main() {
     //get_dag_many(&cids);
 
     //get_block();
-    ps_sub(String::from("Aye"));
+    task::block_on(async_main());
     get_peers();
     get_connection_stats();
 }
