@@ -21,7 +21,11 @@ mod dag;
 use dag::{add_dag_links, get_dag, get_dag_links, get_dag_many, put_dag};
 
 async fn async_main() {
-    ps_sub(String::from("Aye")).await;
+    //let mut topics = Vec::default();
+    //topics.push(String::from("aye"));
+    //ps_sub(topics).await;
+    get_peers();
+    //upload_file().await;
 }
 
 
