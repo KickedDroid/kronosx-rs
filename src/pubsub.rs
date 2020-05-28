@@ -140,7 +140,17 @@ pub enum PubSubEvent {
     Message(Msg)
 }
 
-struct Msg {
+impl PubSubEvent {
+    fn inject_event(&mut self, event: PubSubEvent) {
+        match event {
+            PubSubEvent::Message(msg) => {
+                println!("{:?}", String::from_utf8(msg.data))
+            }
+        }
+    }
+}
+
+pub struct Msg {
     from: Vec<u8>,
     data: Vec<u8>,
     seqno: Vec<u8>,
