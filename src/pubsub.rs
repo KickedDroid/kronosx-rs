@@ -1,3 +1,4 @@
+use protos::pubsub::PubSubMessage;
 use ::protos::pubsub::{PubSubRequest, PSREQTYPE, PubSubResponse};
 use ::protos::pubsub_grpc::PubSubApiClient;
 use futures::prelude::*;
@@ -39,9 +40,23 @@ pub async fn ps_sub(topics: Vec<String>) {
     loop {
         match receiver.into_future().wait() {
             Ok((Some(item), r)) => {
-                let msg = item.get_message();
+                let msg = item.get_message().to_owned();
                 receiver = r;
                 println!("{:?}", msg);
+                
+                for message in msg {
+                    PubSubEvent::Message(
+                        Msg{
+                            from: message.get_from().to_vec(),
+                            data: message.get_data().to_vec(),
+                            seqno: message.get_seqno().to_vec(),
+                            topics: message.get_topicIDs().to_vec(),
+                            signature: message.get_signature().to_vec(),
+                            key: message.get_key().to_vec(),
+                        }
+                    );
+                }
+                
             },
             Ok((None, _)) => break,
             Err((e, _)) => return eprintln!("{:?}", e),
@@ -118,4 +133,18 @@ pub async fn ps_peers(topics: Vec<String>) {
         }
     }
     task::block_on(send);
+}
+
+
+pub enum PubSubEvent {
+    Message(Msg)
+}
+
+struct Msg {
+    from: Vec<u8>,
+    data: Vec<u8>,
+    seqno: Vec<u8>,
+    topics: Vec<String>,
+    signature: Vec<u8>,
+    key: Vec<u8>
 }
